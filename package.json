@@ -1,0 +1,27 @@
+{
+  "name": "qurantineport",
+  "version": "1.0.0",
+  "description": "Portfolio in Quarantine",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanmosesfernandes/allanmosesfernandes.git"
+  },
+  "author": "Allan Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanmosesfernandes/Quarantine-port/issues"
+  },
+  "homepage": "https://github.com/allanmosesfernandes/Quarantine-port#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
+}
