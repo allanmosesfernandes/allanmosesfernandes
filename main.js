@@ -1,6 +1,5 @@
 import './assets/sass/main.scss';
 const typeCustomise = document.getElementById('typed');
-// const files = Object.values(require('/*.mp3'));
 const files = Object.values(require('./assets/audio/*.mp3'));
 const audios = files.map(v => new Audio(v));
 const musicContainer = document.getElementById('music-container');
