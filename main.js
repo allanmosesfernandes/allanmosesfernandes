@@ -1,4 +1,4 @@
-import './assets/sass/main.scss';
+// import './assets/sass/main.scss';
 const typeCustomise = document.getElementById('typed');
 const files = Object.values(require('./assets/audio/*.mp3'));
 const audios = files.map(v => new Audio(v));
