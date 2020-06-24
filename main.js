@@ -1,5 +1,6 @@
-// import './assets/sass/main.scss';
+import './assets/sass/main.scss';
 const typeCustomise = document.getElementById('typed');
+// const files = Object.values(require('/*.mp3'));
 const files = Object.values(require('./assets/audio/*.mp3'));
 const audios = files.map(v => new Audio(v));
 const musicContainer = document.getElementById('music-container');
@@ -11,6 +12,8 @@ const prev = document.getElementById('prev');
 const next = document.getElementById('next');
 const faPlay = document.getElementById('fa-play');
 const artist = document.getElementById('artist');
+
+// const chandu = IloveyouRiyaaaaaaaaaaaaat
 const progressContainer = document.getElementById('progress-container');
 const progressBar = document.getElementById('progress');
 ////Make an Array of Songs b
@@ -30,6 +33,7 @@ function loadSong(song) {
     audio.src = `music/${song}.mp3`;
 }
 
+    // audios.forEach(v => v.play());
 
 
 ///Event listener
@@ -101,49 +105,6 @@ function songSlide(e) {
 
 // audio.addEventListener('ended', nextSong);
 
-let select = s => document.querySelector(s),
-  selectAll = s =>  document.querySelectorAll(s),
-		mainSVG = select('#mainSVG'),
-		pacman = select('#pacman'),
-		allFood = selectAll('#food *')
-
-gsap.set('svg', {
-	visibility: 'visible'
-})
-gsap.set('circle', {
-	transformOrigin: '50% 50%'
-})
-
-let tl = gsap.timeline();
-tl.to(pacman, {
-	duration: 0.25,
-	drawSVG:'90% 10%',
-	x: 50,
-	ease: 'sine.inOut',
-	repeat: -1,
-	yoyo: true
-})
-.to('#startFood', {
-	duration: 0.5,
-	repeat: -1,
-	x: '-=100',
-	scale: 0,
-	ease: 'sine.inOut'
-}, 0)
-.to(allFood, {
-	duration: 0.25,
-	x: '-=50',
-	stagger: {
-		each: 0.05
-	},
-		ease: 'sine.inOut',
-		repeat: -1
-}, 0)
-.from(allFood[5], {
-	duration: 0.5,
-	repeat: -1,
-	scale: 0
-}, 0)
-
 //tl.timeScale(0.25)
 //ScrubGSAPTimeline(tl)
+
