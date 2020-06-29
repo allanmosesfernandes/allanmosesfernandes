@@ -4,21 +4,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="theme-color" content="#db5945">
+	<meta name="theme-color" content="#08ffd8">
 
 
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+ -->
 	<link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
-
+	<link rel="shortcut icon" href="/assets/images/faviconKola.ico" type="image/x-icon">
 	<link rel="stylesheet" href="./assets/sass/main.css">
-
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<title>Allan Moses♒</title>
-
 </head>
 
 <body>
@@ -67,16 +67,17 @@
 
 		</div>
 		<div class="row">
-			<div class="col-4 left-fixed-div">
+			<div class="col-4 left-fixed-div" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+				data-aos-delay="300" data-aos-offset="0">
 				<header class="portfolio-header">
 					<div class="logo">
-						<img src="./assets/images/logo-white.png" alt="logo">
+						<img src="./assets/images/white200x200.png" alt="logo">
 					</div>
 				</header>
 				<div class="img-div animate__animated animate__fadeInUp">
 
 					<div class="box">
-						<img src="./assets/images/colorFinally.png" width="100%" alt="" />
+						<img src="./assets/images/bwResize.png" width="100%" alt="profile-picture" />
 						<span class="top"></span>
 						<span class="right"></span>
 						<span class="bottom"></span>
@@ -96,7 +97,8 @@
 					</ul>
 				</nav>
 			</header>
-			<div class="col-lg-8 col-md-12 right-div animate__animated animate__fadeInUp">
+			<div class="col-lg-8 col-md-12 right-div" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+				data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-duration="1500">
 
 				<p class="bold-text mobile-hide" id="about">
 					Hello. <br>I am Allan
@@ -113,11 +115,12 @@
 					Ltd.
 				</p>
 
-				<p class="mobile-first-fold ">
+				<p class="mobile-first-fold">
 					Hello.<br>
 					I am <br>
 					Allan
 				</p>
+
 				<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink" class="mobile-show">
 					<g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -134,7 +137,12 @@
 				<p class="mobile-first-fold">
 					I have a passion for building highly-polished websites.
 				</p>
-				<div class="projects-div" id="work">
+				<div class="mobile-log mobile-first-fold">
+					<img src="./assets/images/white200x200.png" alt="logo" class="rotate">
+
+				</div>
+				<div class="projects-div" id="work" data-aos="fade-right" data-aos-offset="500" data-aos-duration="1000"
+					data-aos-once="true">
 					<span class="space-mono-txt underline--magical mobile-hide">work</span>
 					<p class="bold-text spacing-div mobile-hide">From web components and UI/UX development,check out my
 						latest web
@@ -161,7 +169,7 @@
 
 
 							</div>
-							<img src="./assets/images/yoozd-premium.png" alt="">
+							<img src="./assets/images/yoozd-premium.png" alt="Yoozd Placeholder">
 						</div>
 						<div class="work-box draw-outline draw-outline--tandem">
 							<div class="overlay ">
@@ -175,7 +183,7 @@
 
 
 							</div>
-							<img src="./assets/images/nhance-min.png" alt="">
+							<img src="./assets/images/nhance-min.png" alt="Nhance Placeholder">
 						</div>
 						<div class="work-box draw-outline draw-outline--tandem">
 							<div class="overlay ">
@@ -189,7 +197,7 @@
 
 
 							</div>
-							<img src="./assets/images/unifyndWebsite.png" alt="">
+							<img src="./assets/images/unifyndWebsite.png" alt="Unifynd Placeholder">
 						</div>
 						<div class="work-box draw-outline draw-outline--tandem">
 							<div class="overlay ">
@@ -203,7 +211,7 @@
 
 
 							</div>
-							<img src="./assets/images/udc-img.png" alt="">
+							<img src="./assets/images/udc-img.png" alt="UDC Placeholder">
 						</div>
 						<div class="work-box draw-outline draw-outline--tandem	">
 							<div class="overlay ">
@@ -218,16 +226,31 @@
 
 
 							</div>
-							<img src="./assets/images/audio.png" alt="">
+							<img src="./assets/images/audio.png" alt="Oscialltor Placeholder">
 
 						</div>
-						<div class="work-box">
-							<img src="./assets/images/yoozd-premium.png" alt="">
+						<div class="work-box draw-outline draw-outline--tandem	">
+							<div class="overlay ">
+								<p>Expense tracker</p>
+								<p>
+									A pure HTML,CSS, Vanilla JS application for tracking daily expenses.
+								</p>
+								<div class="cl-effect-13">
+									<a href="https://brave-roentgen-b0aca3.netlify.app/" target="_blank"> Expense
+										Tracker
+									</a>
+								</div>
+
+
+							</div>
+							<img src="./assets/images/mobile99.png" alt="Mobile Expense">
+
 						</div>
 					</div>
 				</div>
 
-				<div class="skill-div" id="skills">
+				<div class="skill-div" id="skills" data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000"
+					data-aos-once="true">
 					<span class="space-mono-txt underline--magical mobile-hide">skills</span>
 					<p class="mobile-first-fold float-Right">_skills</p>
 
@@ -281,7 +304,8 @@
 
 				</div>
 
-				<div class="about-div">
+				<div class="about-div" data-aos="flip-up" data-aos-offset="500" data-aos-duration="1000"
+					data-aos-once="true">
 					<p>
 						I'm always interested about cool stuff.<br>
 						Are you minding a project?<br>
@@ -300,7 +324,7 @@
 						<audio src="./assets/audio/Border.mp3" id="audio"></audio>
 
 						<div class="img-container">
-							<img src="./assets/images/audio/Border.png" alt="music-cover" id="cover-img">
+							<img src="./assets/images/audio/Border.png" alt="music-cover2" id="cover-img">
 						</div>
 
 						<div class="navigation">
@@ -350,7 +374,10 @@
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
 		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 	<script src='./main.js'></script>
 	<script>
 
