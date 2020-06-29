@@ -53,7 +53,6 @@ nav.shift ul li a:hover:after {
 	transition: all 0.3s ease-in;
 }
 
-
 .social li {
 	list-style-type: none;
 }
@@ -161,15 +160,14 @@ nav.shift ul li a:hover:after {
 
 .sticky-social {
 	position: fixed;
-    top: 40%;
-    right: 0px;
-    padding: 0px;
-    margin-right: 50px;
-    z-index: 9999999;
+	top: 40%;
+	right: 0px;
+	padding: 0px;
+	margin-right: 50px;
+	z-index: 9999999;
 }
 
-
-.social.mobile{
+.social.mobile {
 	display: none;
 }
 .social li {
@@ -177,7 +175,6 @@ nav.shift ul li a:hover:after {
 	font-size: 25px;
 	transition: all 0.8s ease-in-out;
 	cursor: pointer;
-
 }
 
 ::-webkit-scrollbar {
@@ -410,7 +407,17 @@ $duration: 0.5s;
 }
 
 //////===SKILLS DIV ========//////
-
+.rotate {
+	animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
 .skill-div {
 	margin-top: 200px;
 }
@@ -435,15 +442,14 @@ $duration: 0.5s;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    text-align: center;
-    
+	text-align: center;
 
-  .devicons {
-      &:hover {
-          transform: scale(1.2);
-          transition: all ease .5s;
-      }
-  }
+	.devicons {
+		&:hover {
+			transform: scale(1.2);
+			transition: all ease 0.5s;
+		}
+	}
 }
 
 .about-div {
@@ -469,15 +475,13 @@ $duration: 0.5s;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-    margin: 20px 0;
-    
-    p {
-        font-size: 16px;
-        line-height: normal;
-    }
+	margin: 20px 0;
+
+	p {
+		font-size: 16px;
+		line-height: normal;
+	}
 }
-
-
 
 ////////////======Media Queries=======///////
 
@@ -489,8 +493,7 @@ $duration: 0.5s;
 		line-height: normal !important;
 	}
 
-
-	.social.mobile{
+	.social.mobile {
 		display: flex;
 	}
 	body {
@@ -576,7 +579,7 @@ $duration: 0.5s;
 	}
 
 	.img-container::after {
-        background: transparent !important;
+		background: transparent !important;
 	}
 
 	.music-info h4 {
@@ -587,5 +590,18 @@ $duration: 0.5s;
 			font-size: 12px;
 			line-height: normal;
 		}
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.skill-div {
+		margin-top: 100px;
+	}
+}
+
+
+@media only screen and (max-width: 990px) {
+	.img-div {
+		display: none;
 	}
 }
