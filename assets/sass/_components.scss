@@ -56,6 +56,7 @@ nav.shift ul li a:hover:after {
 .social li {
 	list-style-type: none;
 }
+
 /* Keyframes */
 @-webkit-keyframes fill {
 	0% {
@@ -170,6 +171,7 @@ nav.shift ul li a:hover:after {
 .social.mobile {
 	display: none;
 }
+
 .social li {
 	padding: 10px 10px;
 	font-size: 25px;
@@ -410,14 +412,17 @@ $duration: 0.5s;
 .rotate {
 	animation: rotation 3s infinite linear;
 }
+
 @keyframes rotation {
 	from {
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: rotate(359deg);
 	}
 }
+
 .skill-div {
 	margin-top: 200px;
 }
@@ -425,6 +430,7 @@ $duration: 0.5s;
 .float-Right {
 	float: right;
 }
+
 .skills-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -476,6 +482,7 @@ $duration: 0.5s;
 	align-items: center;
 	flex-direction: column;
 	margin: 20px 0;
+	text-align: center;
 
 	p {
 		font-size: 16px;
@@ -496,6 +503,7 @@ $duration: 0.5s;
 	.social.mobile {
 		display: flex;
 	}
+
 	body {
 		padding: 0 10px;
 	}
@@ -507,6 +515,7 @@ $duration: 0.5s;
 	.mobile-show {
 		display: block;
 	}
+
 	nav li {
 		margin: 0 10px;
 	}
@@ -544,8 +553,8 @@ $duration: 0.5s;
 
 	.mobile-first-fold {
 		display: block;
-		font-size: 50px;
-		line-height: 60px;
+		font-size: 30px;
+		line-height: 50px;
 	}
 
 	//////====Work Grid ======/////
@@ -558,6 +567,7 @@ $duration: 0.5s;
 		grid-template-columns: repeat(2, 1fr);
 		width: 100%;
 		grid-gap: 25px;
+
 		p {
 			font-size: 16px;
 		}
@@ -569,8 +579,8 @@ $duration: 0.5s;
 
 	.about-div {
 		p {
-			font-size: 50px;
-			line-height: 60px;
+			font-size: 30px;
+			line-height: 40px;
 		}
 	}
 
@@ -585,6 +595,7 @@ $duration: 0.5s;
 	.music-info h4 {
 		font-size: 16px !important;
 	}
+
 	.footer-div {
 		p {
 			font-size: 12px;
@@ -594,8 +605,28 @@ $duration: 0.5s;
 }
 
 @media only screen and (max-width: 500px) {
+
+	.projects-div {
+		margin-top: 100px !important;
+	}
+	.about-div {
+		margin-top: 0 !important;
+	}
+
 	.skill-div {
 		margin-top: 100px;
+	}
+
+	.skills-grid {
+		grid-template-columns: repeat(3, 1fr);
+
+		.devicons {
+			font-size: 50px;
+		}
+	}
+
+	.line-br {
+		display: block !important;
 	}
 }
 
@@ -604,4 +635,13 @@ $duration: 0.5s;
 	.img-div {
 		display: none;
 	}
+}
+
+
+.music-info a {
+	color: inherit;
+}
+
+.line-br {
+	display: inline-block;
 }
