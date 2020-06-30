@@ -22,7 +22,7 @@ const artists = ['Marbman', 'Chomdu', 'Lodu'];
 //Load Song Index
 let songIndex = 0;
 
-console.log(audio);
+// console.log(audio);
 //Functiion to Load Song 
 
 loadSong(songs[songIndex]);
@@ -58,9 +58,9 @@ function pauseSong() {
 play.addEventListener('click', () => {
 
     const isSongPlaying = musicContainer.classList.contains('play');
-    console.log(musicContainer);
+    // console.log(musicContainer);
 
-    console.log(isSongPlaying);
+    // console.log(isSongPlaying);
     isSongPlaying ? pauseSong() : playSong();
 })
 
