@@ -20,7 +20,7 @@
   "homepage": "https://github.com/allanmosesfernandes/Quarantine-port#readme",
   "devDependencies": {
     "parcel": "^1.12.4",
-    "parcel-bundler": "^1.12.4",
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.26.9"
   },
   "dependencies": {
