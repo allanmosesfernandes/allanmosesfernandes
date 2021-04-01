@@ -1,0 +1,157 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <title>
+                    Checking on my friends
+                </title>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <h1>
+            Checking in on my hoe-mies
+        </h1>
+        <button onclick="getTemperature()">
+            Get Temperature
+        </button>
+        <div id="result" onclick="getTemperature">
+        </div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js">
+        </script>
+        <script>
+            const optionsUS = {
+            method: 'GET',
+            url: 'https://community-open-weather-map.p.rapidapi.com/weather',
+            params: {
+                q: 'Massachusetts, United States',
+                // lat: '-1.548046',
+                // lon: '53.803506, ',
+                callback: 'test',
+                id: '2172797',
+                lang: 'null',
+                units: '"metric" or "imperial"',
+                mode: 'xml, html'
+            },
+            headers: {
+                'x-rapidapi-key': '86700951d1mshab0b9b275a66ecep1adb18jsne0a652adef5c',
+                'x-rapidapi-host': 'community-open-weather-map.p.rapidapi.com'
+            }
+        };
+            const optionsUK = {
+            method: 'GET',
+            url: 'https://community-open-weather-map.p.rapidapi.com/weather',
+            params: {
+                q: 'London, United States',
+                // lat: '-1.548046',
+                // lon: '53.803506, ',
+                callback: 'test',
+                id: '2172797',
+                lang: 'null',
+                units: '"metric" or "imperial"',
+                mode: 'xml, html'
+            },
+            headers: {
+                'x-rapidapi-key': '86700951d1mshab0b9b275a66ecep1adb18jsne0a652adef5c',
+                'x-rapidapi-host': 'community-open-weather-map.p.rapidapi.com'
+            }
+        };
+
+    // function getTemperature() {
+    //     axios()
+    // }42.38546866034526, -71.22172592946674
+    function getTemperature () {
+        axios.all([
+            axios.request(optionsUS),
+            axios.request(optionsUK),
+    ]).then(res => {
+        console.log(res[0].data),
+        console.log(res[1].data)
+    })
+    }
+
+//bentley 42.385477, -71.221747
+//9QPH+67 Waltham, Massachusetts, United States
+    // Show output in browser
+function showOutput(res) {
+  document.getElementById('res').innerHTML = `
+  <div class="card card-body mb-4">
+    <h5>Status: ${res.status}</h5>
+  </div>
+
+  <div class="card mt-3">
+    <div class="card-header">
+      Headers
+    </div>
+    <div class="card-body">
+      <pre>${JSON.stringify(res.headers, null, 2)}</pre>
+    </div>
+  </div>
+
+  <div class="card mt-3">
+    <div class="card-header">
+      Data
+    </div>
+    <div class="card-body">
+      <pre>${JSON.stringify(res.data, null, 2)}</pre>
+    </div>
+  </div>
+
+  <div class="card mt-3">
+    <div class="card-header">
+      Config
+    </div>
+    <div class="card-body">
+      <pre>${JSON.stringify(res.config, null, 2)}</pre>
+    </div>
+  </div>
+`;
+}
+        </script>
+    </body>
+</html> -->
+
+
+<p>An epitome of love and romance that can intensify the love in a relationship by its presence!</p>
+ 
+<p>Red rose flowers are a universal symbol of love, passion, and beauty, an all-time favorite for people in love! With the power of infusing more romance in your relationship, and it also makes soothing perfumes and essential oils by giving it a pleasant fragrance and aesthetic appeal.</p>
+ 
+<p>You're indirectly ordering happiness and celebration when getting a rose bouquet delivered to your loved one's doorstep!</p>
+ 
+<p>We rightfully agreed when Emma Goldman said, ''I would rather have roses on my table than diamonds on my neck. Order red roses online for free to your beloved ones on special occasions like Valentine's Day, Birthdays, Anniversaries, and much more such events from La Fleur.</p>
+ 
+<h3 style="margin-bottom:0;">Different Rose Colors & What They Symbolise?</h2>
+ 
+<p>Roses are one of the most classic & timeless flowers, with over 300 species and several thousand varieties created over the centuries, but the question is, which one do you get for your loved one? Well, La Fleur is here to assist you with each rose's unique characteristics and features for different occasions, moods, and feelings! Here is a quick guide on the different colors of roses and their significance.</p>
+ 
+<p>
+Red Roses - Ultimate Love, Beauty, Desire, and Passion
+Pink roses - Admiration, Gentleness, Dignity, Elegance, Grace, and Happiness
+Yellow roses - Cheerful, Care, Friendship, and Warmth
+White roses - Purity, Spirituality, Condolences, and Innocence
+Orange roses - Passion, Desire, and Fierce Love
+</p>
+ 
+<h3 style="margin-bottom:0;">Rose Colors for Different Occasions</h3>
+ 
+<p>What's in a rose? Well, it turns out there's a whole lot of meaning and messaging in a rose, depending on its color, making sure you choose to deliver the right message!</p>
+<p>
+<a href='https://lafleur.in/flowers/occasion/valentines-day/'>Red Roses </a>- Valentine's Day<br>
+Pink roses - Romantic, Platonic, and Thank You<br>
+Yellow roses - Friendship Day, Appreciation, Congratulatory rose, Get Well Soon<br>
+White roses - Marriages, New beginnings, Farewells, Funeral, Religious Occasions<br>
+Orange roses - Get Well Soon<br>
+</p>
+ 
+<h3 style="margin-bottom:0;">Online Delivery & Shipping</h3>
+ 
+<p>Suppose you are looking for high-quality, premium roses and rose flower bouquets delivered at your loved one's doorstep. In that case, your search ends with La Fleur, India's leading natural and fresh flower bouquets service provider!</p>
+ 
+<p>Whether it's red rose bouquets or rose buckets, La Fleur has them all! Available in plenty of sizes and designs, available online with shipping in 48 hours!</p>
+ 
+<p>La Fleur currently delivers online in Mumbai, Pune, with bouquets available in leading supermarkets and chain stores, including Dorabjee’s , Nature's Basket, Foodhall.</p>
+ 
+<p>Order online and get delivery anywhere in Mumbai, Navi Mumbai, and Pune with free shipping & delivery within two business days.</p>
+ 
+<p>Get Rose Flower Bouquets Online from La Fleur, an impeccable choice for any occasion, be it new beginnings, weddings, anniversaries or Birthdays, Valentines, or Friendship's Day! We're just one click away, your online florist, a one-stop-shop for all your rose or flower needs, enjoy hassle-free online rose delivery with us. Get any desired rose color delivered right at your loved one's doorstep with La Fleur's online roses delivery.</p>

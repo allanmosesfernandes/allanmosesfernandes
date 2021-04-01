@@ -36,20 +36,21 @@
 <body>
 
 
-
+	<div class="cursor"></div>
+	<div class="cursor2"></div>
 	<div class="sticky-social">
 		<ul class="social">
-			<li class="twitter"><a href="https://twitter.com/allan_fernz" target="_blank" rel="noopener"
+			<li class="twitter navlinks"><a href="https://twitter.com/allan_fernz" target="_blank" rel="noopener"
 					aria-label="twitter">
 					<img src="./assets/images/twitter.svg" alt="twitter"></a>
 				</a>
 			</li>
-			<li class="fb"><a href="https://linkedin.com/in/allan-fernandes-13b38a137" target="_blank" rel="noopener"
+			<li class="fb navlinks"><a href="https://linkedin.com/in/allan-fernandes-13b38a137" target="_blank" rel="noopener"
 					aria-label="linked">
 					<img src="./assets/images/linkedin.svg" alt="Linkedin"></a>
 			</li>
 
-			<li class="twitter"><a
+			<li class="twitter navlinks"><a
 					href="https://api.whatsapp.com/send?phone=919619303386&text=Hey!%20Your%20website%20got%20me%20here"
 					target="_blank" rel="noopener" aria-label="whatsapp">
 					<img src="./assets/images/whatsapp-24.png" alt="whatsapp"></a>
@@ -109,16 +110,14 @@
 
 				<p class="bold-text mobile-hide">based in Mumbai, India with a
 					keen interest in making interactive web designs come alive,<br>currently
-					pushing code at <a href="https://www.unifynd.com/" style="color: #08fdd8;" target="_blank"
-						rel="noopener" aria-label="Unifynd"> Unifynd
-						Technologies
-						Ltd.</a>
+					pushing code at <br><a href="https://www.thestarterlabs.com" style="color: #08fdd8;" target="_blank"
+						rel="noopener" aria-label="Unifynd"> The Starter Labs.</a>
 
 				</p>
 
 				<p class="mobile-first-fold">
 					Hello.<br>
-					I am <br>
+					I am 
 					Allan
 				</p>
 
@@ -278,7 +277,7 @@
 					<p class="mobile-first-fold float-Right">_skills</p>
 
 
-					<div class="skills-grid spacing-div">
+					<!-- <div class="skills-grid spacing-div">
 						<div class="skill-box">
 							<span class="devicons devicons-html5"></span>
 							<p>HTML5</p>
@@ -323,8 +322,23 @@
 							<p>Package managers and Bundlers</p>
 						</div>
 					</div>
+ -->
+ 			<div class="card-grid">
+				 <div class="single-module">
+					 <div class="module-img">
+						<span class="devicons devicons-html5 colored"></span>
 
+					 </div>
+					 <p>HTML5</p>
 
+				 </div>
+				 <div class="single-module">
+
+				 </div>
+				 <div class="single-module">
+					 
+				 </div>
+			 </div>
 				</div>
 
 				<div class="about-div" data-aos="flip-up" data-aos-offset="200" data-aos-duration="1000"
@@ -397,6 +411,7 @@
 
 		</div>
 	</div>
+	<button><a href="./friends.html">Go to Friends</a></button>
 	</div>
 
 
@@ -451,7 +466,31 @@
 		}
 
 
-		window.addEventListener('scroll', fixedNav)
+		window.addEventListener('scroll', fixedNav);
+		const cursor = document.querySelector('.cursor');
+		const cursor2 = document.querySelector('.cursor2');
+		const links = document.querySelectorAll('.navlinks');
+
+		window.addEventListener('mousemove', cursort);
+
+		function cursort (e) {
+			console.log(e);
+			cursor.style.top = e.pageY + 'px';
+			cursor.style.left = e.pageX + 'px';
+			cursor2.style.top = (e.pageY) + 'px';
+			cursor2.style.left = (e.pageX) + 'px';
+		}
+
+		links.forEach(link => {
+			link.addEventListener('mouseover', () => {
+				cursor.classList.add('grow');
+				// cursor2.classList.add('grow');
+			})
+			link.addEventListener('mouseleave', () => {
+				cursor.classList.remove('grow');
+				// cursor2.classList.remove('grow');
+			})
+		});	
 	</script>
 </body>
 
