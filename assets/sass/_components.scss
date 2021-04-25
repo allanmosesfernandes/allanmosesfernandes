@@ -902,7 +902,17 @@ button:focus {outline:0;}
 
 
 ////---Mental Media Queries -----/////
+.cursor2, .cursor {
+	z-index: 999;
+}
+.hideArtist {
+	opacity: 0;
+	transition: opacity 400ms;
+}
 
+.showArtist {
+	opacity: 1;
+}
 @media only screen and (max-width: 500px) {
 
 	.cursor, .cursor2 {
