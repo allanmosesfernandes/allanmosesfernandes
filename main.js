@@ -210,5 +210,5 @@ prevButton.addEventListener('click', () => {
 })
 
 nextButton.addEventListener('click', () => {
-    sound.currentTime = audio.currentTime + 10;
+    sound.currentTime = sound.currentTime + 10;
 })
