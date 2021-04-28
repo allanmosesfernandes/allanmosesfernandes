@@ -25,9 +25,13 @@ body {
 @font-face {
     font-family: Monument-ExtraBold;
     src: url('../fonty/MonumentExtended-FreeForPersonalUse/MonumentExtended-Ultrabold.otf');
+    font-display: swap;
+
   }
 
   @font-face {
     font-family: Monument-Bold;
     src: url('../fonty/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf');
+    font-display: swap;
+
   }
