@@ -193,7 +193,6 @@ function pauseSong () {
     playButton.querySelector('.fas').classList.add('fa-play');
     sound.pause();
     cover.classList.remove('rotate');
-
 }
 
 playButton.addEventListener('click', () => {
