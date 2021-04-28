@@ -6,6 +6,11 @@
 	--animate-delay: 12s;
 }
 
+
+.spotify-link {
+	display: none;
+}
+
 .nav-bar {
 	display: flex;
 }
@@ -623,6 +628,7 @@ $duration: 0.5s;
 	.projects-div {
 		margin-top: 50px !important;
 	}
+
 	.about-div {
 		margin-top: 0 !important;
 	}
@@ -671,6 +677,7 @@ $duration: 0.5s;
 	transition: all 0.1s ease;
 	transform-origin: 100% 100%;
 }
+
 .cursor2 {
 	position: absolute;
 	width: 10px;
@@ -709,11 +716,13 @@ $duration: 0.5s;
 	background-color: #08fdd8;
 
 }
+
 .module-img:hover {
 	transition: .15s ease-in-out;
 
 	transform: rotate(-2deg) translateY(-5px) scale(1.025);
 }
+
 .card-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -736,6 +745,7 @@ $button-opaque: #0000008c;
 	color: #ffffffba;
 	font-size: 30px !important;
 }
+
 .fas.fa-cog {
 	font-size: 20px;
 }
@@ -743,6 +753,7 @@ $button-opaque: #0000008c;
 .fas.fa-chevron-down {
 	font-size: 15px;
 }
+
 .fa-play-circle {
 	margin-right: 10px;
 	color: white;
@@ -757,10 +768,10 @@ $button-opaque: #0000008c;
 	font-size: 40px !important;
 }
 
-.al
-p {
+.al p {
 	margin: 5px 0;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -773,7 +784,7 @@ button {
 
 .cover {
 	max-width: 100%;
-    border-radius: 50%;
+	border-radius: 50%;
 	min-width: 50px;
 
 }
@@ -785,29 +796,31 @@ button {
 .album-art {
 	width: 30%;
 }
+
 .rotate {
-    animation: rotation 5s infinite linear;
+	animation: rotation 5s infinite linear;
 
 }
 
 @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
 .fas {
 	font-size: 30px;
 }
+
 .music-box {
 	background: rgb(34, 193, 195);
-	background: linear-gradient(
-		0deg,
-		rgba(34, 193, 195, 1) 0%,
-		rgba(95, 217, 69, 0.9727241238292192) 100%
-	);
+	background: linear-gradient(0deg,
+			rgba(34, 193, 195, 1) 0%,
+			rgba(95, 217, 69, 0.9727241238292192) 100%);
 }
 
 .artist-details {
@@ -835,10 +848,12 @@ button {
 }
 
 
-#prev, #next {
+#prev,
+#next {
 	visibility: inherit !important;
 	background: transparent;
 }
+
 .progress {
 	background-color: #fff;
 	border-radius: 5px;
@@ -876,21 +891,25 @@ input[type="range"]:focus {
 	padding: 10px;
 	margin-top: 20px;
 }
+
 .music-box {
 	border-radius: 15px;
 	padding: 10px;
 }
+
 .fab.fa-spotify {
 	font-size: 50px;
 }
+
 .volume-tab,
 .settings-tab {
 	background-color: #ffffff47;
 	padding: 10px;
-    border-radius: 18px;
-    padding: 5px 10px;
+	border-radius: 18px;
+	padding: 5px 10px;
 
 }
+
 .fa-volume-up {
 	font-size: 20px;
 	margin-right: 5px;
@@ -914,13 +933,17 @@ input[type="range"]::-webkit-slider-thumb {
 	-webkit-appearance: none;
 }
 
-button:focus {outline:0;}
+button:focus {
+	outline: 0;
+}
 
 
 ////---Mental Media Queries -----/////
-.cursor2, .cursor {
+.cursor2,
+.cursor {
 	z-index: 999;
 }
+
 .hideArtist {
 	opacity: 0;
 	transition: opacity 400ms;
@@ -929,17 +952,26 @@ button:focus {outline:0;}
 .showArtist {
 	opacity: 1;
 }
+
 @media only screen and (max-width: 500px) {
+
+	.artist-details {
+		align-items: center;
+	}
 
 	.fas.fa-chevron-down {
 		font-size: 10px;
 	}
+
 	.play-buttons {
 		margin-top: 50px;
 	}
-	.cursor, .cursor2 {
+
+	.cursor,
+	.cursor2 {
 		display: none;
 	}
+
 	.artist {
 		font-size: 14px !important;
 		line-height: 1.2 !important;
@@ -949,6 +981,7 @@ button:focus {outline:0;}
 		font-size: 16px !important;
 		line-height: 1.2 !important;
 	}
+
 	.track-details {
 		width: 80%;
 	}
@@ -960,10 +993,10 @@ button:focus {outline:0;}
 	}
 
 	#play {
-	margin: 0;
+		margin: 0;
 	}
 
 	.fab.fa-spotify {
 		font-size: 20px;
 	}
-  }
+}
