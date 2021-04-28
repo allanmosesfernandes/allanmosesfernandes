@@ -7,8 +7,8 @@ let sound = new Audio(audioUrl);
 
 const typeCustomise = document.getElementById('typed');
 // const files = Object.values(require('/*.m4a'));
-const files = Object.values(require('./assets/audio/*.m4a'));
-const audios = files.map(v => new Audio(v));
+// const files = Object.values(require('./assets/audio/*.m4a'));
+// const audios = files.map(v => new Audio(v));
 
 const artist = document.querySelector('.artist');
 // const musicContainer = document.getElementById('music-container');
