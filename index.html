@@ -3,14 +3,14 @@
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177381375-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-177381375-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-177381375-1');
-</script>
+		gtag('config', 'UA-177381375-1');
+	</script>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +18,8 @@
 	<meta name="Description" content="freelance web developer">
 	<meta name="Keywords" content="HTML CSS Javascript Freelance Websites">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-	crossorigin="anonymous" />
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" />
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -44,8 +44,8 @@
 					<img src="./assets/images/twitter.svg" alt="twitter"></a>
 				</a>
 			</li>
-			<li class="fb navlinks"><a href="https://linkedin.com/in/allan-fernandes-13b38a137" target="_blank" rel="noopener"
-					aria-label="linked">
+			<li class="fb navlinks"><a href="https://linkedin.com/in/allan-fernandes-13b38a137" target="_blank"
+					rel="noopener" aria-label="linked">
 					<img src="./assets/images/linkedin.svg" alt="Linkedin"></a>
 			</li>
 
@@ -62,7 +62,7 @@
 
 
 	<div class="container-fluid">
-		<div class="nav-bar" id="main-nav">	
+		<div class="nav-bar" id="main-nav">
 		</div>
 		<div class="row">
 			<div class="col-4 left-fixed-div" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
@@ -115,7 +115,7 @@
 
 				<p class="mobile-first-fold">
 					Hello 👋<br>
-					I am 
+					I am
 					Allan
 				</p>
 
@@ -137,7 +137,7 @@
 				</p>
 				<div class="mobile-log mobile-first-fold">
 					<img class='svg-character' src="./assets/images/character 20.svg" alt="logo">
-				
+
 				</div>
 				<div class="projects-div" id="work" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000"
 					data-aos-once="true">
@@ -322,7 +322,7 @@
 						</div>
 					</div>
 
- 			<!-- <div class="card-grid">
+					<!-- <div class="card-grid">
 				 <div class="single-module">
 					 <div class="module-img">
 						<span class="devicons devicons-html5 colored"></span>
@@ -380,62 +380,65 @@
 
 					<section class="house-section">
 						<div class="music-box">
-						  <div class="top-half">
-							<div class="artist-details">
-							  <div class="track-details">
-								<p class="artist hideArtist "><span><i class="far fa-play-circle"></i></span>Marbman is playing...</p>
-								<p class="song-name">Jet S0N</p>
-								<p class="album">NULYF EP</p>
-							  </div>
-							  <div class="album-art">
-								<a href="https://open.spotify.com/artist/0sr93nfUrvuHctzPGYtfJN?si=l4Mq4-KoS9mRx-3wEFxU3Q">
-									<img src="./assets/images/marbman.png" class="cover">
-								</a>
-							  </div>
+							<div class="top-half">
+								<div class="artist-details">
+									<div class="track-details">
+										<p class="artist hideArtist "><span><i class="far fa-play-circle"></i></span>Marbman is playing...</p>
+										<p class="song-name">Jet S0N</p>
+										<p class="album">NULYF EP</p>
+									</div>
+									<div class="album-art">
+										<a
+											href="https://open.spotify.com/artist/0sr93nfUrvuHctzPGYtfJN?si=l4Mq4-KoS9mRx-3wEFxU3Q">
+											<span  class="spotify-link">Spotify Link for music</span><img src="./assets/images/marbman.png" class="cover" alt="album cover">
+										</a>
+									</div>
+								</div>
+
+								<div class="progress-container" id="progress-bar">
+									<div class="progress" id="progress"></div>
+									<span class="currentTime">
+									</span>
+
+									<span class="Total-duration">
+										5:45
+									</span>
+								</div>
 							</div>
-					  
-							<div class="progress-container" id="progress-bar">
-							  <div class="progress" id="progress"></div>
-							  <span class="currentTime">
-							  </span>
-					  
-							  <span class="Total-duration">
-								5:45
-							  </span>
+							<div class="bottom-half">
+								<audio id="player">
+									<source src="./assets/audio/Jetson.m4a">
+								</audio>
+								<div class="play-buttons">
+									<button id="prev" class="action-btn" aria-label="previous">
+										<i class="fas fa-step-backward"></i> </button>
+									<button id="play" aria-label="play">
+										<i class="fas fa-play"></i>
+
+									</button>
+
+									<button id="next" class="action-btn" aria-label="next">
+										<i class="fas fa-step-forward"></i>
+									</button>
+								</div>
+
+								<div class="bottom-tier">
+									<i class="fab fa-spotify"></i>
+									<div class="volume-tab">
+										<span><i class="fas fa-volume-up"></i></span> 
+										<label>
+											<input id="volume-control" type="range" min="0" max="100" value="80">
+										</label>
+
+									</div>
+									<div class="settings-tab">
+										<i class="fas fa-cog"></i>
+										<i class="fas fa-chevron-down"></i>
+									</div>
+								</div>
 							</div>
-						  </div>
-						  <div class="bottom-half">
-							<audio id="player">
-							  <source src="./assets/audio/Jetson.m4a">
-							</audio>
-							<div class="play-buttons">
-							  <button id="prev" class="action-btn" aria-label="previous">
-								<i class="fas fa-step-backward"></i> </button>
-							  <button id="play" aria-label="play">
-								<i class="fas fa-play"></i>
-					  
-							  </button>
-					  
-							  <button id="next" class="action-btn" aria-label="next">
-								<i class="fas fa-step-forward"></i>
-							  </button>
-							</div>
-					  
-							<div class="bottom-tier">
-							  <i class="fab fa-spotify"></i>
-							  <div class="volume-tab">
-								<span><i class="fas fa-volume-up"></i></span> <input id="volume-control" type="range" min="0" max="100"
-								  value="80">
-					  
-							  </div>
-							  <div class="settings-tab">
-								<i class="fas fa-cog"></i>
-								<i class="fas fa-chevron-down"></i>
-							  </div>
-							</div>
-						  </div>
 						</div>
-					  </section>
+					</section>
 					<div class="footer-div">
 						<p>Created with ❤️ by <span class="line-br">Allan Moses Fernandes</span></p>
 						<ul class="social mobile">
@@ -528,7 +531,7 @@
 
 		window.addEventListener('mousemove', cursort);
 
-		function cursort (e) {
+		function cursort(e) {
 			console.log(e);
 			cursor.style.top = e.pageY + 'px';
 			cursor.style.left = e.pageX + 'px';
