@@ -495,11 +495,21 @@ $duration: 0.5s;
 	}
 }
 
+.top-half {
+	padding: 30px;
+}
+
+.bottom-half {
+	padding: 0 30px;
+}
 ////////////======Media Queries=======///////
 
 //--1- Hide what you dont need
 @media only screen and (max-width: 800px) {
 
+	.top-half, .bottom-half {
+		padding: 0;
+	}
 	.fa-volume-up {
 		font-size: 15px;
 	}
@@ -741,9 +751,15 @@ $button-opaque: #0000008c;
 	color: #fff;
 }
 
+.house-section {
+	width: 70%;
+}
+
+
 .album {
 	color: #ffffffba;
-	font-size: 30px !important;
+	font-size: 24px !important;
+	line-height: 1.2;
 }
 
 .fas.fa-cog {
@@ -761,11 +777,13 @@ $button-opaque: #0000008c;
 
 .artist {
 	color: #ffffffba;
-	font-size: 50px !important;
+	font-size: 20px !important;
+	line-height: 1.2 !important;
 }
 
 .song-name {
-	font-size: 40px !important;
+	font-size: 24px !important;
+	line-height: 1.2 !important;
 }
 
 .al p {
@@ -959,6 +977,10 @@ label {
 
 @media only screen and (max-width: 500px) {
 
+	.house-section {
+		width: 100%;
+	}
+	
 	.artist-details {
 		align-items: center;
 	}
