@@ -1,0 +1,56 @@
+<section class="house-section">
+  <div class="music-box">
+    <div class="top-half">
+      <div class="artist-details">
+        <div class="track-details">
+          <p class="artist hideArtist "><span><i class="far fa-play-circle"></i></span>Marbman is playing...</p>
+          <p class="song-name">Jet S0N</p>
+          <p class="album">NULYF EP</p>
+        </div>
+        <div class="album-art">
+          <img src="./assets/images/marbman.png" class="cover">
+        </div>
+      </div>
+
+      <div class="progress-container" id="progress-bar">
+        <div class="progress" id="progress"></div>
+        <span class="currentTime">
+        </span>
+
+        <span class="Total-duration">
+          5:45
+        </span>
+      </div>
+    </div>
+    <div class="bottom-half">
+      <audio id="player">
+        <source src="./assets/audio/1 - Jetson.m4a">
+      </audio>
+      <div class="play-buttons">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-step-backward"></i> </button>
+        <button id="play">
+          <i class="fas fa-play"></i>
+
+        </button>
+
+        <button id="next" class="action-btn">
+          <i class="fas fa-step-forward"></i>
+        </button>
+      </div>
+
+      <div class="bottom-tier">
+        <i class="fab fa-spotify"></i>
+        <div class="volume-tab">
+          <span><i class="fas fa-volume-up"></i></span> <input id="volume-control" type="range" min="0" max="100"
+            value="80">
+
+        </div>
+        <div class="settings-tab">
+          <i class="fas fa-cog"></i>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
