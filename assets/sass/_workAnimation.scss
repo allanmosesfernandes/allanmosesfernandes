@@ -1,0 +1,160 @@
+////////////////////////////////////////
+// DRAW OUTLINE 
+////////////////////////////////////////
+
+$outline-border-width: 4px;
+$outline-border-color: black;
+$sec-outline-border-color: #4f89be;
+$outline-button-padding: 16px 28px;
+$outline-text-color: black;
+$sec-outline-text-color: #fff;
+$outline-transition-time: 1.5s;
+$outline-fade: 0.35s;
+$outline-active-scale: 1.05;
+
+.draw-outline {
+  border: $outline-border-width $outline-border-color solid;
+  text-decoration: none;
+  color: $outline-text-color;
+  position: relative;
+  transition: border-color 0.35s ease-in-out;
+  z-index: 1;
+  
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    box-sizing: content-box;
+    z-index: -1;
+    transition: transform 0.25s ease-in-out;
+    padding-left: $outline-border-width;
+  }
+  
+  &:before {
+    top: -$outline-border-width;
+    left: -$outline-border-width;
+    border-top: $outline-border-width transparent solid;
+    border-right: $outline-border-width transparent solid;
+  }
+  
+  &:after {
+    bottom: -$outline-border-width;
+    right: -$outline-border-width;
+    border-bottom: $outline-border-width transparent solid;
+    border-left: $outline-border-width transparent solid;
+  }
+  
+  &:hover {
+    color: $sec-outline-text-color;
+    transition: color $outline-fade ease-in-out,  border-color $outline-fade ease-in-out;
+    border-color: $outline-border-color;
+    animation: outline-reset $outline-fade 1  forwards;
+    &:before {
+      animation: top-right-border $outline-transition-time/2 1 $outline-fade forwards;
+    }
+    &:after {
+      animation: bottom-left-border $outline-transition-time/2 1 ($outline-transition-time/2)+$outline-fade forwards;
+    }
+  } 
+  &--tandem:hover {
+    &:after {
+      animation: bottom-left-border $outline-transition-time/2 1 $outline-fade forwards;
+    }  
+  }
+  &:active {
+    &:before,
+    &:after {
+      transform: scale($outline-active-scale);
+    }
+  }
+}
+
+@keyframes outline-reset {
+  0% {
+    border-color: $outline-border-color;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+
+@keyframes top-right-border {
+  0% {
+    border-color: $sec-outline-border-color;
+    width: 0px;
+    height: 0;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+  }
+  100% {
+    border-color: $sec-outline-border-color;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes bottom-left-border {
+  0% {
+    border-color: $sec-outline-border-color;
+    width: 0px;
+    height: 0;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+  }
+  100% {
+    border-color: $sec-outline-border-color;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+//////////Work Links Animation //////////////
+/* Effect 13: three circles */
+
+.cl-effect-13 {
+    position: relative;
+
+    a {
+        color: #4f89be;;
+    }
+}
+.cl-effect-13 a {
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-13 a::before {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	color: transparent;
+	content: '•';
+	text-shadow: 0 0 transparent;
+	font-size: 1.2em;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+.cl-effect-13 a:hover::before,
+.cl-effect-13 a:focus::before {
+	color: #fff;
+	text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+.cl-effect-13 a:hover,
+.cl-effect-13 a:focus {
+	color: #ba7700;
+}
