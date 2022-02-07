@@ -909,6 +909,9 @@ label {
 .first-fold-web {
   max-width: 1024px;
   margin: 100px auto 0 auto;
+  background-image: url("Open Peeps - Bust.19461458.png");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .first-fold-web h1 {
   font-size: 24px;
