@@ -1,21 +1,25 @@
 {
   "name": "here-we-go",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
+  "description": "Hi,this is my personal portfolio using HTML5,CSS3, and vanilla JS. I've used SASS as a CSS precompiler.",
+  "default": "index.html",
+ "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "dev": "parcel index.html"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanmosesfernandes/allanmosesfernandes.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "netlify-cli": "^8.15.3",
-    "parcel": "^2.2.1"
+  "bugs": {
+    "url": "https://github.com/allanmosesfernandes/allanmosesfernandes/issues"
   },
+  "homepage": "https://github.com/allanmosesfernandes/allanmosesfernandes#readme",
   "dependencies": {
-    "@parcel/transformer-sass": "^2.2.1"
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
   }
 }
