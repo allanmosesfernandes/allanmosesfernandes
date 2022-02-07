@@ -7,25 +7,22 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-#bootstrap-overrides {
-  position: relative;
-  padding: 0px 50px;
-  overflow-x: hidden;
-  font-family: Monument-Bold, monospace;
-  font-weight: 300;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #15181a;
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #0d0d0d;
+  color: #aaa;
 }
-@font-face {
-  font-family: Monument-ExtraBold;
-  src: url("MonumentExtended-Ultrabold.a3a131f3.otf");
-  font-display: swap;
+.txt {
+  border-right: 1px solid white;
+  animation: blinkTextCursor 500ms steps(40) infinite normal;
 }
-@font-face {
-  font-family: Monument-Bold;
-  src: url("MonumentExtended-Regular.3a728ea3.otf");
-  font-display: swap;
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: white;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 *,
 html {
@@ -34,25 +31,22 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-#bootstrap-overrides {
-  position: relative;
-  padding: 0px 50px;
-  overflow-x: hidden;
-  font-family: Monument-Bold, monospace;
-  font-weight: 300;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #15181a;
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #0d0d0d;
+  color: #aaa;
 }
-@font-face {
-  font-family: Monument-ExtraBold;
-  src: url("MonumentExtended-Ultrabold.a3a131f3.otf");
-  font-display: swap;
+.txt {
+  border-right: 1px solid white;
+  animation: blinkTextCursor 500ms steps(40) infinite normal;
 }
-@font-face {
-  font-family: Monument-Bold;
-  src: url("MonumentExtended-Regular.3a728ea3.otf");
-  font-display: swap;
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: white;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 .animate__animated.animate__fadeInUp {
   --animate-duration: 1.5s;
@@ -65,7 +59,14 @@ html {
   display: flex;
 }
 nav {
-  margin-left: auto;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 70;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  font-size: 1.1em;
 }
 /* SHIFT */
 nav.shift ul li a {
@@ -246,13 +247,15 @@ nav li a {
   color: #fff;
 }
 .bold-text {
+  font-family: "Space Mono", monospace;
   position: relative;
-  font-size: 50px;
-  line-height: 90px;
+  font-size: 30px;
+  line-height: 1.5;
   font-weight: bold;
 }
 .space-mono-txt {
   font-size: 30px;
+  font-family: "Source Code Pro", monospace;
 }
 .strike-effect {
   position: relative;
@@ -462,7 +465,8 @@ nav li a {
   padding: 0 30px;
 }
 @media only screen and (max-width: 800px) {
-  .top-half, .bottom-half {
+  .top-half,
+.bottom-half {
     padding: 0;
   }
 
@@ -895,6 +899,57 @@ label {
 
   .fab.fa-spotify {
     font-size: 20px;
+  }
+}
+.first-fold {
+  max-width: 1024px;
+  margin: 120px auto 0 auto;
+}
+/***** Website 2.0 ***** */
+.first-fold-web {
+  max-width: 1024px;
+  margin: 100px auto 0 auto;
+}
+.first-fold-web h1 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.first-fold-web p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.first-fold-web p a {
+  border-bottom: 1px dashed #4f89be;
+  text-decoration: none;
+}
+.first-fold-web span {
+  font-size: 24px;
+}
+strong {
+  color: #fff;
+}
+#emoji-effect {
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: 0.4s all;
+  display: inline-block;
+}
+#emoji-effect:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 600px) {
+  .first-fold-web {
+    padding: 30px;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  span {
+    font-size: 20px !important;
   }
 }
 .music-container {
