@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Code+Pro:wght@300;400&family=Space+Mono:wght@400;700&display=swap";
 @charset "UTF-8";
 *,
 html {
@@ -59,14 +59,17 @@ body {
   display: flex;
 }
 nav {
+  display: flex;
   position: fixed;
   top: 20px;
-  right: 20px;
+  padding: 0 50px;
   z-index: 70;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   letter-spacing: 1px;
   font-size: 1.1em;
+  width: 100%;
+  justify-content: space-between;
 }
 /* SHIFT */
 nav.shift ul li a {
@@ -909,9 +912,6 @@ label {
 .first-fold-web {
   max-width: 1024px;
   margin: 100px auto 0 auto;
-  background-image: url("Open Peeps - Bust.19461458.png");
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 .first-fold-web h1 {
   font-size: 24px;
@@ -923,7 +923,7 @@ label {
   margin-bottom: 20px;
 }
 .first-fold-web p a {
-  border-bottom: 1px dashed #4f89be;
+  border-bottom: 1px dashed #ff9f35;
   text-decoration: none;
 }
 .first-fold-web span {
@@ -934,12 +934,10 @@ strong {
 }
 #emoji-effect {
   cursor: pointer;
-  filter: grayscale(1);
   transition: 0.4s all;
   display: inline-block;
 }
 #emoji-effect:hover {
-  filter: grayscale(0);
   transform: scale(1.2);
 }
 @media only screen and (max-width: 600px) {
@@ -954,6 +952,12 @@ strong {
   span {
     font-size: 20px !important;
   }
+}
+.header-logo {
+  font-family: "Roboto Slab", serif;
+}
+.logo-end {
+  color: #ff9f35;
 }
 .music-container {
   display: flex;
