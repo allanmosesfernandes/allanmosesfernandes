@@ -1,12 +1,28 @@
 @import "_base";
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap");
 
 .animate__animated.animate__fadeInUp {
 	--animate-duration: 1.5s;
 	--animate-delay: 12s;
 }
 
+body {
+	display: none;
+}
 
+.txt {
+	border-right: 1px solid white;
+	animation: blinkTextCursor 500ms steps(40) infinite normal;
+	background-color: red;
+  }
+  @keyframes blinkTextCursor {
+	from {
+	  border-right-color: rgba(255,255,255 .8);
+	}
+	to {
+	  border-right-color: transparent;
+	}
+  }
 .spotify-link {
 	display: none;
 }
@@ -638,7 +654,7 @@ $duration: 0.5s;
 	}
 
 	.skill-div {
-		margin-top: 100px;
+		margin-top: 100px
 	}
 
 	.skills-grid {
@@ -1020,3 +1036,5 @@ label {
 		font-size: 20px;
 	}
 }
+
+

@@ -1,14 +1,7 @@
 node_modules
-<<<<<<< HEAD
 
 # Parcel related files
 dist/
 .cache/
-
-=======
-.cache
-dist
-
-# Local Netlify folder
-.netlify
->>>>>>> 7912cc17b8bfd1bc20f21bd0b16e929f9fdd20c7
+.parcel-cache/
+.netlify/
