@@ -1,6 +1,5 @@
 @import "_base";
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Code+Pro:wght@300;400&family=Space+Mono:wght@400;700&display=swap');
 .animate__animated.animate__fadeInUp {
 	--animate-duration: 1.5s;
 	--animate-delay: 12s;
@@ -17,14 +16,17 @@
 
 nav {
 	// margin-left: auto;
+	display: flex;
 	position: fixed;
 	top: 20px;
-	right: 20px;
+	padding: 0 50px;
 	z-index: 70;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	letter-spacing: 1px;
 	font-size: 1.1em;
+	width: 100%;
+	justify-content: space-between;
 }
 
 /* SHIFT */
@@ -1049,9 +1051,6 @@ label {
 .first-fold-web {
 	max-width: 1024px;
 	margin: 100px auto 0 auto;
-	background-image: url('../images/Open\ Peeps\ -\ Bust.png');
-	background-repeat: no-repeat;
-	background-position: top right;
 	h1{
 		font-size: 24px;
 		line-height: 1.5;
@@ -1061,7 +1060,7 @@ label {
 		font-size: 16px;
 		margin-bottom: 20px;
 		a {
-			border-bottom: 1px dashed #4f89be;
+			border-bottom: 1px dashed #ff9f35;;
 			text-decoration: none;
 		}
 	}
@@ -1074,14 +1073,12 @@ strong {
 }
 #emoji-effect {
 	cursor: pointer;
-	filter: grayscale(1);
 	transition: .4s all;
 	display: inline-block;
 	// transition: all 500ms ease-in-out;
 }
 
 #emoji-effect:hover {
-	filter: grayscale(0);
 	transform: scale(1.2);
 }
 @media only screen and (max-width: 600px) {
@@ -1094,4 +1091,12 @@ strong {
 	span {
 		font-size: 20px !important;
 	}
+  }
+
+  .header-logo {
+	font-family: 'Roboto Slab', serif;
+  }
+
+  .logo-end {
+	  color: #ff9f35;
   }
