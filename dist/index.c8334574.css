@@ -941,6 +941,10 @@ strong {
   transform: scale(1.2);
 }
 @media only screen and (max-width: 600px) {
+  body {
+    display: none;
+  }
+
   .first-fold-web {
     padding: 30px;
   }
@@ -952,9 +956,14 @@ strong {
   span {
     font-size: 20px !important;
   }
+
+  .header-logo {
+    font-size: 14px;
+  }
 }
 .header-logo {
   font-family: "Roboto Slab", serif;
+  color: #fff;
 }
 .logo-end {
   color: #ff9f35;
