@@ -1,1 +1,2 @@
-Hi,this is my personal portfolio using HTML5,CSS3, and vanilla JS. I've used SASS as a CSS precompiler.
+Hello, this is an attempt to spin up a cool easy to deploy portfolio website for developers where you can plug in your details and you're good to go. 
+It uses netlify for free hosting and parcel for zero configuration and fast builds.
