@@ -1,4 +1,4 @@
-12749
+12755
 62C:\Users\ankur\Desktop\master\here-we-go\node_modules\@nodelib132887826110349842 1
 74C:\Users\ankur\Desktop\master\here-we-go\node_modules\randomfill\README.md132887826186460868 0
 94C:\Users\ankur\Desktop\master\here-we-go\node_modules\highlight.js\scss\atelier-dune-dark.scss132887826302022269 0
@@ -81,7 +81,7 @@
 112C:\Users\ankur\Desktop\master\here-we-go\node_modules\source-map-support\node_modules\source-map\source-map.d.ts132887826211741092 0
 92C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\features\string\code-points.js132887826290702152 0
 89C:\Users\ankur\Desktop\master\here-we-go\node_modules\connect\node_modules\debug\Makefile132887826191150906 0
-51C:\Users\ankur\Desktop\master\here-we-go\index.html132888088638860144 0
+51C:\Users\ankur\Desktop\master\here-we-go\index.html132888152263270844 0
 74C:\Users\ankur\Desktop\master\here-we-go\node_modules\has-tostringtag\test132887826191310904 1
 78C:\Users\ankur\Desktop\master\here-we-go\node_modules\terser\dist\package.json132887826235171670 0
 91C:\Users\ankur\Desktop\master\here-we-go\node_modules\svgo\plugins\moveElemsAttrsToGroup.js132887826224771205 0
@@ -135,7 +135,7 @@
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2017\ToDateString.js132887826345833448 0
 94C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\core\lib\requests\PathRequest.js132887826283372095 0
 67C:\Users\ankur\Desktop\master\here-we-go\node_modules\timsort\build132887826188090884 1
-45C:\Users\ankur\Desktop\master\here-we-go\dist132888089321993328 1
+45C:\Users\ankur\Desktop\master\here-we-go\dist132888157220048808 1
 80C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\watcher\src\shared132887826215001127 1
 84C:\Users\ankur\Desktop\master\here-we-go\node_modules\highlight.js\scss\default.scss132887826303822273 0
 70C:\Users\ankur\Desktop\master\here-we-go\node_modules\pbkdf2\README.md132887826199560977 0
@@ -1084,7 +1084,7 @@
 61C:\Users\ankur\Desktop\master\here-we-go\node_modules\gensync132887826187520889 1
 120C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helper-compilation-targets\node_modules\semver\CHANGELOG.md132887826187030867 0
 77C:\Users\ankur\Desktop\master\here-we-go\node_modules\jake\node_modules\chalk132887826186490871 1
-67C:\Users\ankur\Desktop\master\here-we-go\dist\index.63aff760.js.map132888079487979245 0
+67C:\Users\ankur\Desktop\master\here-we-go\dist\index.63aff760.js.map132888157000427759 0
 67C:\Users\ankur\Desktop\master\here-we-go\node_modules\get-intrinsic132887826196980964 1
 69C:\Users\ankur\Desktop\master\here-we-go\node_modules\gensync\LICENSE132887826163200325 0
 76C:\Users\ankur\Desktop\master\here-we-go\node_modules\to-regex-range\LICENSE132887826168590370 0
@@ -2766,7 +2766,7 @@
 103C:\Users\ankur\Desktop\master\here-we-go\node_modules\terser\node_modules\source-map\dist\source-map.js132887826194410930 0
 104C:\Users\ankur\Desktop\master\here-we-go\node_modules\postcss-merge-rules\src\lib\ensureCompatibility.js132887826164050331 0
 96C:\Users\ankur\Desktop\master\here-we-go\node_modules\terser\node_modules\commander\CHANGELOG.md132887826176360447 0
-68C:\Users\ankur\Desktop\master\here-we-go\dist\wordpress.3fcd4453.svg132888079488059223 0
+68C:\Users\ankur\Desktop\master\here-we-go\dist\wordpress.3fcd4453.svg132888157001927746 0
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\http-proxy-middleware\README.md132887826213541105 0
 87C:\Users\ankur\Desktop\master\here-we-go\node_modules\object-inspect\example\inspect.js132887826215631131 0
 96C:\Users\ankur\Desktop\master\here-we-go\node_modules\terser\node_modules\commander\package.json132887826170000384 0
@@ -3035,7 +3035,7 @@
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\features\set\delete-all.js132887826300502246 0
 76C:\Users\ankur\Desktop\master\here-we-go\node_modules\svgo\lib\svgo\tools.js132887826248751768 0
 64C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\es132887826484275263 1
-63C:\Users\ankur\Desktop\master\here-we-go\dist\less.6349dead.svg132888079487679222 0
+63C:\Users\ankur\Desktop\master\here-we-go\dist\less.6349dead.svg132888157001247747 0
 67C:\Users\ankur\Desktop\master\here-we-go\node_modules\svgo\bin\svgo132887826163230321 0
 66C:\Users\ankur\Desktop\master\here-we-go\node_modules\.bin\ejs.cmd132887826485305266 0
 145C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\nested\index.js132887826226511225 0
@@ -3298,7 +3298,7 @@
 81C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\actual\set\index.js132887826414124636 0
 84C:\Users\ankur\Desktop\master\here-we-go\node_modules\node-addon-api\tools\README.md132887826218091142 0
 80C:\Users\ankur\Desktop\master\here-we-go\node_modules\side-channel\test\index.js132887826184140841 0
-64C:\Users\ankur\Desktop\master\here-we-go\dist\html5.3cf069b9.svg132888079487679222 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\html5.3cf069b9.svg132888157001237738 0
 106C:\Users\ankur\Desktop\master\here-we-go\node_modules\postcss-selector-parser\dist\selectors\combinator.js132887826178040463 0
 120C:\Users\ankur\Desktop\master\here-we-go\node_modules\stream-browserify\node_modules\readable-stream\readable-browser.js132887826213551107 0
 87C:\Users\ankur\Desktop\master\here-we-go\node_modules\postcss-value-parser\lib\index.js132887826163030325 0
@@ -3484,7 +3484,7 @@
 77C:\Users\ankur\Desktop\master\here-we-go\node_modules\source-map-js\README.md132887826211361087 0
 70C:\Users\ankur\Desktop\master\here-we-go\node_modules\semver\range.bnf132887826169700381 0
 101C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2021\CanonicalNumericIndexString.js132887826283522094 0
-66C:\Users\ankur\Desktop\master\here-we-go\dist\adobexd.bbc37d56.svg132888079488079228 0
+66C:\Users\ankur\Desktop\master\here-we-go\dist\adobexd.bbc37d56.svg132888157001937745 0
 74C:\Users\ankur\Desktop\master\here-we-go\node_modules\minimist\test\num.js132887826197530962 0
 83C:\Users\ankur\Desktop\master\here-we-go\node_modules\source-map-js\source-map.d.ts132887826212441112 0
 71C:\Users\ankur\Desktop\master\here-we-go\node_modules\parseurl\index.js132887826168420368 0
@@ -3561,7 +3561,7 @@
 80C:\Users\ankur\Desktop\master\here-we-go\node_modules\postcss-ordered-values\src132887826200210987 1
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\cosmiconfig\dist\index.d.ts.map132887826218551161 0
 92C:\Users\ankur\Desktop\master\here-we-go\node_modules\postcss-normalize-unicode\src\index.js132887826162900328 0
-66C:\Users\ankur\Desktop\master\here-we-go\dist\marbman.a8a5d189.png132888079487819229 0
+66C:\Users\ankur\Desktop\master\here-we-go\dist\marbman.a8a5d189.png132888156999667734 0
 134C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub132887826246791751 1
 87C:\Users\ankur\Desktop\master\here-we-go\node_modules\object.assign\.github\FUNDING.yml132887826216601132 0
 80C:\Users\ankur\Desktop\master\here-we-go\node_modules\side-channel\.eslintignore132887826155870257 0
@@ -3914,7 +3914,7 @@
 93C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2019\IsSharedArrayBuffer.js132887826320112420 0
 78C:\Users\ankur\Desktop\master\here-we-go\node_modules\highlight.js\lib\core.js132887826286142118 0
 77C:\Users\ankur\Desktop\master\here-we-go\node_modules\path-to-regexp\index.js132887826175790441 0
-65C:\Users\ankur\Desktop\master\here-we-go\dist\github.a0950acf.svg132888079488059223 0
+65C:\Users\ankur\Desktop\master\here-we-go\dist\github.a0950acf.svg132888157001927746 0
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\es\array-buffer\is-view.js132887826425084723 0
 74C:\Users\ankur\Desktop\master\here-we-go\node_modules\is-plain-obj\license132887826156480255 0
 108C:\Users\ankur\Desktop\master\here-we-go\node_modules\readable-stream\lib\internal\streams\stream-browser.js132887826208551059 0
@@ -5294,7 +5294,7 @@
 103C:\Users\ankur\Desktop\master\here-we-go\node_modules\lmdb\prebuilds\darwin-arm64\node.abi72.glibc.node132887826299342234 0
 108C:\Users\ankur\Desktop\master\here-we-go\node_modules\msgpackr-extract\prebuilds\darwin-x64\node.abi102.node132887826222391190 0
 107C:\Users\ankur\Desktop\master\here-we-go\node_modules\msgpackr-extract\prebuilds\darwin-x64\node.abi83.node132887826235071649 0
-65C:\Users\ankur\Desktop\master\here-we-go\dist\sketch.0d54e06e.svg132888079487679222 0
+65C:\Users\ankur\Desktop\master\here-we-go\dist\sketch.0d54e06e.svg132888157001247747 0
 109C:\Users\ankur\Desktop\master\here-we-go\node_modules\msgpackr-extract\prebuilds\darwin-arm64\node.abi83.node132887826234071665 0
 60C:\Users\ankur\Desktop\master\here-we-go\assets\images\icons132888075433966302 1
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\msgpackr-extract\.github\workflows132887826278402043 1
@@ -5332,7 +5332,7 @@
 69C:\Users\ankur\Desktop\master\here-we-go\node_modules\mkdirp\index.js132887826169680379 0
 93C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2018\OrdinaryHasInstance.js132887826333373338 0
 68C:\Users\ankur\Desktop\master\here-we-go\node_modules\mkdirp\LICENSE132887826157120272 0
-70C:\Users\ankur\Desktop\master\here-we-go\dist\faviconKola.1fd90c39.ico132888079487799228 0
+70C:\Users\ankur\Desktop\master\here-we-go\dist\faviconKola.1fd90c39.ico132888156998727746 0
 73C:\Users\ankur\Desktop\master\here-we-go\node_modules\mkdirp\package.json132887826176200447 0
 64C:\Users\ankur\Desktop\master\here-we-go\node_modules\cssesc\bin132887826179880515 1
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\jake\node_modules\has-flag\license132887826168830376 0
@@ -7060,6 +7060,7 @@
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\fast-glob\out\providers\async.js132887826176210434 0
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\fast-glob\out\providers\filters132887826224481211 1
 91C:\Users\ankur\Desktop\master\here-we-go\node_modules\fast-glob\out\providers\provider.d.ts132887826227621245 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\index.d02576c5.css132888094882215424 0
 89C:\Users\ankur\Desktop\master\here-we-go\node_modules\fast-glob\out\providers\provider.js132887826212171095 0
 95C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2015\DeletePropertyOrThrow.js132887826292682174 0
 89C:\Users\ankur\Desktop\master\here-we-go\node_modules\fast-glob\out\providers\stream.d.ts132887826229081265 0
@@ -8120,7 +8121,7 @@
 102C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2016\AbstractRelationalComparison.js132887826224191210 0
 92C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2016\AdvanceStringIndex.js132887826230761265 0
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\esnext.array.at.js132887826332782534 0
-63C:\Users\ankur\Desktop\master\here-we-go\dist\sass.2f89741e.svg132888079488059223 0
+63C:\Users\ankur\Desktop\master\here-we-go\dist\sass.2f89741e.svg132888157001927746 0
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2016\ArrayCreate.js132887826234741682 0
 94C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\es.symbol.description.js132887826328932513 0
 101C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2016\CanonicalNumericIndexString.js132887826282952082 0
@@ -8229,6 +8230,7 @@
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\caniuse-lite\data\regions\RS.js132887826335353400 0
 96C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2015\CreateIterResultObject.js132887826287742127 0
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2015\DateFromTime.js132887826289582155 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\index.b8c2a135.css132888098205328074 0
 77C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2015\Day.js132887826290052157 0
 121C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope\pkg\foo132887826185780861 1
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\es-abstract\2015\DayFromYear.js132887826290402150 0
@@ -8350,6 +8352,7 @@
 74C:\Users\ankur\Desktop\master\here-we-go\node_modules\encodeurl\HISTORY.md132887826179960477 0
 104C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\types\lib\modifications\removeProperties.js132887826244541727 0
 76C:\Users\ankur\Desktop\master\here-we-go\node_modules\encodeurl\package.json132887826156500255 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\index.48c94b5f.css132888090022389994 0
 73C:\Users\ankur\Desktop\master\here-we-go\node_modules\encodeurl\README.md132887826161360313 0
 67C:\Users\ankur\Desktop\master\here-we-go\node_modules\emphasize\lib132887826162050311 1
 94C:\Users\ankur\Desktop\master\here-we-go\node_modules\dom-serializer\lib\foreignNames.d.ts.map132887826181130486 0
@@ -9025,7 +9028,7 @@
 83C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\stable\reflect\has.js132887826409144576 0
 95C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\esnext.array.find-last.js132887826332972546 0
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\stable\reflect\own-keys.js132887826445574914 0
-56C:\Users\ankur\Desktop\master\here-we-go\dist\index.html132888088638840146 0
+56C:\Users\ankur\Desktop\master\here-we-go\dist\index.html132888157001257739 0
 98C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\stable\reflect\prevent-extensions.js132887826447904924 0
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\generator\lib\source-map.js132887826217011142 0
 96C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\stable\reflect\set-prototype-of.js132887826457115203 0
@@ -9253,7 +9256,7 @@
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\es.math.cosh.js132887826318662408 0
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\es.math.expm1.js132887826318702409 0
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\es.math.imul.js132887826318852423 0
-68C:\Users\ankur\Desktop\master\here-we-go\dist\bitbucket.d78b8b7e.svg132888079487679222 0
+68C:\Users\ankur\Desktop\master\here-we-go\dist\bitbucket.d78b8b7e.svg132888157001257739 0
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\es.math.log1p.js132887826318972422 0
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\core-js\modules\es.math.sinh.js132887826319062409 0
 107C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\types\lib\validators\react\isReactComponent.js132887826281392067 0
@@ -10945,7 +10948,7 @@
 106C:\Users\ankur\Desktop\master\here-we-go\node_modules\caniuse-lite\data\features\document-currentscript.js132887826298272236 0
 107C:\Users\ankur\Desktop\master\here-we-go\node_modules\caniuse-lite\data\features\document-evaluate-xpath.js132887826298342259 0
 99C:\Users\ankur\Desktop\master\here-we-go\node_modules\caniuse-lite\data\features\document-policy.js132887826298642223 0
-68C:\Users\ankur\Desktop\master\here-we-go\dist\index.c8334574.css.map132888089321983332 0
+68C:\Users\ankur\Desktop\master\here-we-go\dist\index.c8334574.css.map132888157220038908 0
 109C:\Users\ankur\Desktop\master\here-we-go\node_modules\caniuse-lite\data\features\document-scrollingelement.js132887826298712288 0
 87C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\core\lib\transform-file.js132887826229541256 0
 98C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\types\lib\builders\generated\index.js132887826205761038 0
@@ -11364,7 +11367,7 @@
 75C:\Users\ankur\Desktop\master\here-we-go\node_modules\asn1.js\lib\asn1\base132887826211761092 1
 79C:\Users\ankur\Desktop\master\here-we-go\node_modules\asn1.js\lib\asn1\decoders132887826209431076 1
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\asn1.js\lib\asn1\encoders\der.js132887826195410945 0
-83C:\Users\ankur\Desktop\master\here-we-go\dist\shopify-logo-svgrepo-com.02c305e9.svg132888079487679222 0
+83C:\Users\ankur\Desktop\master\here-we-go\dist\shopify-logo-svgrepo-com.02c305e9.svg132888157001247747 0
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\asn1.js\lib\asn1\decoders\index.js132887826202631013 0
 86C:\Users\ankur\Desktop\master\here-we-go\node_modules\asn1.js\lib\asn1\decoders\pem.js132887826209661067 0
 87C:\Users\ankur\Desktop\master\here-we-go\node_modules\asn1.js\lib\asn1\constants\der.js132887826188130886 0
@@ -11854,7 +11857,7 @@
 93C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\runtime-browser-hmr\lib\loaders132887826173300425 1
 82C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\resolver-default\lib132887826161800318 1
 91C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\resolver-default\package.json132887826177370450 0
-63C:\Users\ankur\Desktop\master\here-we-go\dist\index.63aff760.js132888079487919223 0
+63C:\Users\ankur\Desktop\master\here-we-go\dist\index.63aff760.js132888157000387732 0
 94C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\reporter-dev-server\package.json132887826211341083 0
 85C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\reporter-dev-server\src132887826209111077 1
 98C:\Users\ankur\Desktop\master\here-we-go\node_modules\@parcel\reporter-dev-server\src\HMRServer.js132887826194890937 0
@@ -12505,7 +12508,7 @@
 97C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helpers\lib\helpers\asyncIterator.js132887826188620902 0
 90C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helpers\lib\helpers\typeof.js132887826198970975 0
 94C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helpers\lib\helpers\wrapRegExp.js132887826200820990 0
-70C:\Users\ankur\Desktop\master\here-we-go\dist\whatsapp-24.8a227804.png132888079487799228 0
+70C:\Users\ankur\Desktop\master\here-we-go\dist\whatsapp-24.8a227804.png132888156999677738 0
 88C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helper-validator-option\lib132887826180740530 1
 92C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helper-validator-option\LICENSE132887826156840264 0
 107C:\Users\ankur\Desktop\master\here-we-go\node_modules\@babel\helper-validator-option\lib\find-suggestion.js132887826169480381 0
@@ -12673,40 +12676,43 @@
 52C:\Users\ankur\Desktop\master\here-we-go\JS\typed.js132878000319199091 0
 56C:\Users\ankur\Desktop\master\here-we-go\JS\typed.min.js132878000319209097 0
 68C:\Users\ankur\Desktop\master\here-we-go\dist\bitbucket.622b6c92.svg132888070575993169 0
-65C:\Users\ankur\Desktop\master\here-we-go\dist\Border.5a3c4956.png132888079488469221 0
+65C:\Users\ankur\Desktop\master\here-we-go\dist\Border.5a3c4956.png132888157001297776 0
 65C:\Users\ankur\Desktop\master\here-we-go\dist\Border.a080c94c.png132888070577473170 0
 63C:\Users\ankur\Desktop\master\here-we-go\dist\css3.0d519b90.svg132888070579483353 0
-63C:\Users\ankur\Desktop\master\here-we-go\dist\css3.23f5bd3a.svg132888079488059223 0
+63C:\Users\ankur\Desktop\master\here-we-go\dist\css3.23f5bd3a.svg132888157001927746 0
 70C:\Users\ankur\Desktop\master\here-we-go\dist\faviconKola.452b8548.ico132888070550322927 0
-64C:\Users\ankur\Desktop\master\here-we-go\dist\figma.12ac6eaf.svg132888079487679222 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\figma.12ac6eaf.svg132888157001247747 0
 65C:\Users\ankur\Desktop\master\here-we-go\dist\github.f2667644.svg132888070579493194 0
 64C:\Users\ankur\Desktop\master\here-we-go\dist\index.30ed81d4.css132888070581083206 0
+68C:\Users\ankur\Desktop\master\here-we-go\dist\index.48c94b5f.css.map132888090022449994 0
 64C:\Users\ankur\Desktop\master\here-we-go\dist\index.6968d635.css132888086031505613 0
 68C:\Users\ankur\Desktop\master\here-we-go\dist\index.6968d635.css.map132888086031575617 0
-64C:\Users\ankur\Desktop\master\here-we-go\dist\index.c8334574.css132888089321933333 0
+68C:\Users\ankur\Desktop\master\here-we-go\dist\index.b8c2a135.css.map132888098205408075 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\index.c8334574.css132888157219998833 0
+68C:\Users\ankur\Desktop\master\here-we-go\dist\index.d02576c5.css.map132888094882295437 0
 63C:\Users\ankur\Desktop\master\here-we-go\dist\index.ff167b99.js132888070581083206 0
 67C:\Users\ankur\Desktop\master\here-we-go\dist\index.ff167b99.js.map132888070581143278 0
-65C:\Users\ankur\Desktop\master\here-we-go\dist\Jetson.b375efc2.m4a132888075747561461 0
+65C:\Users\ankur\Desktop\master\here-we-go\dist\Jetson.b375efc2.m4a132888157001807750 0
 63C:\Users\ankur\Desktop\master\here-we-go\dist\jira.6b940921.svg132888070579493194 0
-63C:\Users\ankur\Desktop\master\here-we-go\dist\jira.711e20f0.svg132888079488059223 0
-65C:\Users\ankur\Desktop\master\here-we-go\dist\jquery.4a4db4cd.svg132888079488059223 0
-61C:\Users\ankur\Desktop\master\here-we-go\dist\js.3d328dc9.svg132888079487669231 0
+63C:\Users\ankur\Desktop\master\here-we-go\dist\jira.711e20f0.svg132888157001927746 0
+65C:\Users\ankur\Desktop\master\here-we-go\dist\jquery.4a4db4cd.svg132888157001927746 0
+61C:\Users\ankur\Desktop\master\here-we-go\dist\js.3d328dc9.svg132888157001247747 0
 61C:\Users\ankur\Desktop\master\here-we-go\dist\js.47721a97.svg132888070575983160 0
-67C:\Users\ankur\Desktop\master\here-we-go\dist\linkedin.aaa7bac2.svg132888079488059223 0
+67C:\Users\ankur\Desktop\master\here-we-go\dist\linkedin.aaa7bac2.svg132888157001927746 0
 66C:\Users\ankur\Desktop\master\here-we-go\dist\marbman.87de3d43.png132888070559713021 0
-64C:\Users\ankur\Desktop\master\here-we-go\dist\react.7a4a59be.svg132888079487679222 0
+64C:\Users\ankur\Desktop\master\here-we-go\dist\react.7a4a59be.svg132888157001247747 0
 83C:\Users\ankur\Desktop\master\here-we-go\dist\shopify-logo-svgrepo-com.93bee1d5.svg132888070575983160 0
 65C:\Users\ankur\Desktop\master\here-we-go\dist\sketch.7bf295e6.svg132888070575993169 0
-66C:\Users\ankur\Desktop\master\here-we-go\dist\twitter.d3308ede.svg132888079487669231 0
+66C:\Users\ankur\Desktop\master\here-we-go\dist\twitter.d3308ede.svg132888157001237738 0
 70C:\Users\ankur\Desktop\master\here-we-go\dist\whatsapp-24.0959f995.png132888070559723012 0
 53C:\Users\ankur\Desktop\master\here-we-go\assets\audio132878050590054814 1
 53C:\Users\ankur\Desktop\master\here-we-go\assets\fonty132878050590134887 1
-52C:\Users\ankur\Desktop\master\here-we-go\assets\sass132888088638780194 1
+52C:\Users\ankur\Desktop\master\here-we-go\assets\sass132888089741279347 1
 61C:\Users\ankur\Desktop\master\here-we-go\assets\sass\main.css132883082214760654 0
 65C:\Users\ankur\Desktop\master\here-we-go\assets\sass\main.css.map132883082214770650 0
 87C:\Users\ankur\Desktop\master\here-we-go\assets\images\Annotation 2020-04-03 034007.png132878000319689093 0
 62C:\Users\ankur\Desktop\master\here-we-go\assets\sass\main.scss132878000320309110 0
-69C:\Users\ankur\Desktop\master\here-we-go\assets\sass\_components.scss132888089315448032 0
+69C:\Users\ankur\Desktop\master\here-we-go\assets\sass\_components.scss132888157214878117 0
 65C:\Users\ankur\Desktop\master\here-we-go\assets\sass\_layout.scss132878000320289107 0
 72C:\Users\ankur\Desktop\master\here-we-go\assets\sass\_workAnimation.scss132885601988567899 0
 68C:\Users\ankur\Desktop\master\here-we-go\assets\images\aqua-logo.png132878000319739103 0
