@@ -2,7 +2,6 @@
   "name": "here-we-go",
   "version": "1.0.0",
   "description": "Hello, this is an attempt to spin up a cool easy to deploy portfolio website for developers where you can plug in your details and you're good to go. \r It uses netlify for free hosting and parcel for zero configuration and fast builds.",
-  "main": "main.js",
   "dependencies": {
     "@parcel/transformer-sass": "^2.2.1",
     "abortcontroller-polyfill": "^1.7.3",
@@ -381,7 +380,8 @@
   "scripts": {
      "start": "parcel index.html",
      "build": "parcel build index.html",
-     "dev": "parcel index.html"
+     "cleanup": "rm -rf .parcel-cache dist",
+     "dev": "npm run cleanup && parcel index.html"
    },
   "repository": {
     "type": "git",
