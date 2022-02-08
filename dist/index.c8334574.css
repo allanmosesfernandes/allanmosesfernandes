@@ -766,7 +766,7 @@ button {
 }
 #play {
   width: 60px;
-  height: 60px;
+  max-height: 60px;
   margin: 0 20px;
   background-color: white;
   border-radius: 50%;
@@ -983,7 +983,7 @@ strong {
 }
 .skills-icons ul img {
   width: 60px;
-  height: 60px;
+  max-height: 60px;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition: 0.3s ease-in-out;

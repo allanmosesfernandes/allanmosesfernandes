@@ -1141,7 +1141,7 @@ strong {
 	text-align: center;
 	img {
 		width: 60px;
-		height: 60px;
+		max-height: 60px;
 		//transition: all 0.2s ease-in;
 		-webkit-transform: scale(1.2);
 		transform: scale(1.2);
