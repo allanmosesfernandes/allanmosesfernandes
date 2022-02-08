@@ -31,9 +31,9 @@
                 Allan Fernandes <span class="logo-end">{ }</span>
             </h1>
             <ul>
-                <li><a href="#about">about</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#skills">skills</a></li>
+                <li><a href="#section-1">about</a></li>
+                <li><a href="#section-2">skills</a></li>
+                <!-- <li><a href="#work">work</a></li> -->
             </ul>
         </nav>
     </header>
@@ -72,7 +72,7 @@
             </section>
 
         </div>
-        <div class="section">
+        <div class="section" data-anchor="section-2">
             <section class="first-fold-web">
                 <h1 style="color:#ff9f35; font-weight: bold;">
                     <bold>Skills & Tools</bold>
@@ -157,7 +157,7 @@
             </section>
 
         </div>
-        <div class="section">Some section</div>
+        <!-- <div class="section">Some section</div> -->
     </div>
 
 
@@ -589,6 +589,10 @@
     <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.js" integrity="sha256-Q0sEDDg+H9/M1xkbxiTumdOPvJ5cvyGPxpRjM2hWyyM=" crossorigin="anonymous"></script>
     <script>new fullpage('#fullpage', {
     //options here
+    anchors: [
+        'section-1',
+        'section-2'
+    ],
     autoScrolling: true,
     scrollHorizontally: true,
     navigation: true
