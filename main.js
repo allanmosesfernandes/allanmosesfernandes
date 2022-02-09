@@ -77,7 +77,7 @@ function checkMagic() {
 }
 
 
-checkMagic2 = () => {
+function checkMagic2() {
     const svgMenu = document.querySelector('#svg-menu');
     const toggler = document.querySelector('.toggler');
 
