@@ -19,6 +19,83 @@ Start Important Part
   ==================================================*/
 #menuToggle {
   display: none;
+  #top,
+#bottom {
+  stroke-dasharray: 30, 75.39;
+  transition: all 0.6s cubic-bezier(0.6, 0.33, 0.67, 1.29);
+}
+
+svg.active #top,
+svg.active #bottom {
+  stroke-dasharray: 75.39;
+  stroke-dashoffset: -60;
+}
+svg {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.5;
+cursor:pointer;
+}
+
+svg path {
+  fill: none;
+  stroke: #ff9f35;
+  stroke-width: 1px;
+}
+
+ label span{
+   background: #fff;
+   border-radius:10px;
+   height:7px;
+   margin: 7px 0;
+   transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+ 
+ }
+ 
+ 
+ span:nth-of-type(1){
+   width:50%;
+   
+ }
+ 
+ span:nth-of-type(2){
+   width:100%;
+ }
+ 
+ 
+ span:nth-of-type(3){
+   width:75%;
+  
+ }
+ 
+ 
+ input[type="checkbox"]{
+   display:none;
+ }
+ 
+ 
+ input[type="checkbox"]:checked ~ span:nth-of-type(1){
+   transform-origin:bottom;
+   transform: rotatez(45deg) translate(8px, 0px);
+   }
+ 
+ 
+ input[type="checkbox"]:checked ~ span:nth-of-type(2){
+   
+   transform-origin:top;
+   transform:rotatez(-45deg)
+ }
+ 
+ 
+ input[type="checkbox"]:checked ~ span:nth-of-type(3){
+   
+   transform-origin:bottom;
+   width:50%;
+   transform: translate(23px, -8px) rotatez(45deg); 
+ }
+ 
 }
 
 @media only screen and (max-width: 600px) {
