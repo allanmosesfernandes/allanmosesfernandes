@@ -63,6 +63,24 @@ function changeEmoji() {
     emojiElement.innerHTML = emojiArray[Math.floor(Math.random() * emojiArray.length)]
 
 }
+
+function checkMagic() {
+    const toggler = document.querySelector('.toggler');
+    const button = document.querySelector('.hamburg');
+
+    if(toggler.checked == true) {
+        button.classList.toggle('opened');
+    }
+    else {
+        button.classList.remove('opened');
+    }
+}
+
+// CLose Menu 
+
+function closeMenu() {
+
+}
 // Init On DOM Load
 document.addEventListener('DOMContentLoaded', init);
 
@@ -71,8 +89,21 @@ function init() {
     const txtElement = document.querySelector('.txt-type');
     const words = JSON.parse(txtElement.getAttribute('data-words'));
     const wait = txtElement.getAttribute('data-wait');
+    const toggler = document.querySelector('.toggler');
+    toggler.onclick = checkMagic;
     // Init TypeWriter
     new TypeWriter(txtElement, words, wait);
     emojiElement.onmouseover = changeEmoji;
-
+    const menuItems = document.querySelector('#menuLol');
+    const b = Array.from(menuItems.children);
+    b.forEach(function (e) {
+        e.addEventListener('click', () => {
+            toggler.checked = false;
+            const button = document.querySelector('.hamburg');
+            button.classList.remove('opened');
+        })
+    });
 }
+
+
+
