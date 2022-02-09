@@ -1130,8 +1130,101 @@ Start Important Part
   background-size: 100% 88%;
 }
 /*================================================
-End Important Part
-==================================================*/
+  End Important Part
+  ==================================================*/
+#menuToggle {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  #menuToggle {
+    display: block;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+}
+#menuLol {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  box-shadow: 0 0 10px #85888C;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  background-color: #0d0d0d;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  left: 0;
+}
+#menuLol li {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  flex: 0;
+}
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+#menuLol ul {
+  display: flex;
+}
+#menuToggle input {
+  display: flex;
+  width: 40px;
+  height: 32px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+.line {
+  fill: none;
+  stroke: #ff9f35;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.hamburg {
+  display: flex;
+  width: 40px;
+  height: 32px;
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+  top: -70px;
+  pointer-events: none;
+}
 .draw-outline {
   border: 4px black solid;
   text-decoration: none;
