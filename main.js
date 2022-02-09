@@ -76,6 +76,15 @@ function checkMagic() {
     }
 }
 
+
+checkMagic2 = () => {
+    const svgMenu = document.querySelector('#svg-menu');
+    const toggler = document.querySelector('.toggler');
+
+    // if(svgMenu.classList.contains('opened')) {
+    //     toggler.checked = true;
+    // }
+}
 // CLose Menu 
 
 function closeMenu() {
@@ -99,11 +108,22 @@ function init() {
     b.forEach(function (e) {
         e.addEventListener('click', () => {
             toggler.checked = false;
-            const button = document.querySelector('.hamburg');
-            button.classList.remove('opened');
+            const button = document.querySelector('#svg-menu');
+            button.classList.remove('active');
         })
     });
-}
 
+
+    //menu 2.0
+
+    const svgMenu = document.querySelector('#svg-menu');
+    svgMenu.addEventListener('click', () => {
+        const toggler = document.querySelector('.toggler');
+       // toggler.checked == false ? toggler.checked = true : toggler.checked = flase;
+       toggler.checked = !toggler.checked;
+
+    })
+   // svgMenu.onclick = checkMagic2();
+}
 
 
