@@ -1,3 +1,9 @@
+import { compilePseudoSelector } from 'css-select/lib/pseudo-selectors';
+import Typed from 'typed.js';
+
+
+
+
 // ES6 Class
 class TypeWriter {
     constructor(txtElement, words, wait = 3000) {
@@ -59,9 +65,10 @@ const emojiArray = ['👋', '🕶', '☕', ' 🤟', ' 👻 ', ' 👾 ', '🤖', 
 const emojiElement = document.getElementById('emoji-effect');
 
 // on hover we need to change the element from the array, 
+
 function changeEmoji() {
     emojiElement.innerHTML = emojiArray[Math.floor(Math.random() * emojiArray.length)]
-
+    console.log('sadfasdf');
 }
 
 function checkMagic() {
@@ -102,7 +109,7 @@ function init() {
     toggler.onclick = checkMagic;
     // Init TypeWriter
     new TypeWriter(txtElement, words, wait);
-    emojiElement.onmouseover = changeEmoji;
+   // emojiElement.onmouseover = changeEmoji;
     const menuItems = document.querySelector('#menuLol');
     const b = Array.from(menuItems.children);
     b.forEach(function (e) {
@@ -112,8 +119,6 @@ function init() {
             button.classList.remove('active');
         })
     });
-
-
     //menu 2.0
 
     const svgMenu = document.querySelector('#svg-menu');
@@ -124,6 +129,28 @@ function init() {
 
     })
    // svgMenu.onclick = checkMagic2();
+
+   // typed
+   var options = {
+    //strings: ["$ mkdir <em>new-project<em><br>","$ cd <em>new-project<em><br>","$ npm init -y<br>","$ touch index.html"],
+    strings: ['$ mkdir <em>new_project</em>^1000<br>`$ cd <em>new_project</em><br>`$ npm init -y<br>`$ cd touch <em>index.html</em><br>`$' ],
+    typeSpeed: 100,
+    backSpeed: 0,
+    loop: true,
+  };
+  // const typedElement = document.querySelector('#typed');
+   var typed = new Typed('#typedJS', options);
+
+
+
+   let bob = document.querySelector('#work-it');
+   if(bob.classList.contains('active')) {
+       console.log('sddfsdfas');
+   }
+   else {
+       console.log('no no no');
+   }
 }
 
 
+//strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],

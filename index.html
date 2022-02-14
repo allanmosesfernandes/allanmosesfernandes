@@ -23,18 +23,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.css"
         integrity="sha256-8n53TF9DtmeC27uzauKYruYl3Cqb8KhqPk5awQztpnk=" crossorigin="anonymous">
     <title>Allan Moses Portfolio</title>
+
 </head>
 
-<body id="">
+<body>
     <header>
         <nav id="main" class="" role="navigation">
             <h1 class="header-logo">
                 Allan Fernandes <span class="logo-end">{ }</span>
             </h1> 
             <ul id="desktop-nav">
-                <li><a href="#section-1" class="orange-hover">about</a></li>
-                <li><a href="#section-2" class="orange-hover">skills</a></li>
-                <!-- <li><a href="#work">work</a></li> -->
+                <li><a href="#about" class="orange-hover">about</a></li>
+                <li><a href="#skills" class="orange-hover">skills</a></li>
+                <li><a href="#work" class="orange-hover">work</a></li>
+                <li><a href="#contact" class="orange-hover">contact</a></li>
             </ul>
                 <div id="menuToggle">
 
@@ -54,25 +56,19 @@
                         <path id="middle" d="M390,284.967L420,284.967" />
                       </g>
                     </g>
-                  </svg>
-                    <!-- <button class="hamburg">
-                        <svg width="100" height="100" viewBox="0 0 100 100">
-                            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                            <path class="line line2" d="M 20,50 H 80" />
-                            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                          </svg>
-                    </button> -->
-          
+                  </svg>          
                   <ul id="menuLol">
                     <li><a href="#about">about</a></li>
                     <li><a href="#skills">skills</a></li>
-                    <!-- <li><a href="#">Info</a></li>
-                    <li><a href="#">Contact</a></li> -->
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
                  </div>
 
         </nav>
     </header>
+    <!--SVG SPRITE-->
+    
     <div id="fullpage">
         <div class="section">
             <section class="first-fold-web">
@@ -111,8 +107,7 @@
                     </p>
                 </div>
             </section>
-
-        </div>
+      </div>
         <div class="section" data-anchor="skills">
             <section class="first-fold-web">
                 <h1 style="color:#ff9f35; font-weight: bold;">
@@ -198,7 +193,93 @@
             </section>
 
         </div>
-        <!-- <div class="section">Some section</div> -->
+        <!-- Works Section -->
+        <div class="section" data-anchor="work" style="background-color: #f2f2f2;" id="work-it" data-anchor="work">
+            <section class="first-fold-web">
+                <h1 style="color:#ff9f35; font-weight: bold;">
+                    <bold>Work </bold>
+                </h1>
+                <div class="typing-effect">
+                    <p style="margin-top: 15px; margin-bottom: 30px">
+                        From web components and UI/UX development,check out my latest web projects!
+                    </p>
+                    <!--Terminal -->
+                    <div class="terminal-window">
+                        <div class="terminal-panel">
+                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#FF605C" width="10" height="10" title="">
+                                <path d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0"/>
+                                <path d="m384 256c0 70.691406-57.308594 128-128 128s-128-57.308594-128-128 57.308594-128 128-128 128 57.308594 128 128zm0 0" />
+                                <title>close</title>
+                            </svg>
+                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#FFBD44" width="10" height="10">
+                                <path d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0"/>
+                                <path d="m384 256c0 70.691406-57.308594 128-128 128s-128-57.308594-128-128 57.308594-128 128-128 128 57.308594 128 128zm0 0" />
+                                <title>minimise</title>
+                            </svg>
+                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#00CA4E" width="10" height="10">
+                                <path d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0"/>
+                                <path d="m384 256c0 70.691406-57.308594 128-128 128s-128-57.308594-128-128 57.308594-128 128-128 128 57.308594 128 128zm0 0" />
+                                <title>maximize </title>
+                            </svg>
+                        </div>
+                        <div class="bash-wind">
+                            <p>
+                               <span style="color: #4E9A06">allanfernandes@ubuntu</span> 
+                               <span style="color: #c4a000">~</span>
+                            </p>
+                            <p>
+                                <span id="typedJS"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <button class="button_animated">
+                            Projects
+                        </button>
+                    </a>
+                   
+                </div>
+            </section>
+
+        </div>
+
+        <div class="section" data-anchor="contact">
+            <div class="first-fold-web">
+                <p>
+                    I'm always excited to build and discuss new ideas and creating cool things on the internet 🌎 
+                    Interested in doing something? Let's talk.
+                </p>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="https://linkedin.com/in/allan-fernandes-13b38a137" target="_blank" rel="noopener" aria-label="linked-in">
+                                <img src="./assets/images/icons/linkedin.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:fernzallan14@gmail.com" title="fernzallan14@gmail.com">
+                                <img src="./assets/images/icons/gmail.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/allan_fernz" target="_blank" rel="noopener" aria-label="twitter">
+                                <img src="./assets/images/icons/twitter.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discordapp.com/users/6129" target="_blank" rel="noopener" aria-label="twitter">
+                                <img src="./assets/images/icons/discord.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="house-music">
+                    P.S <br>House Music is important!
+                </p>
+                <iframe class="spotify-frame" src="https://open.spotify.com/embed/playlist/0gFsp1Dqf4H7TGlPtLZ7d5?utm_source=generator&theme=0" width="100%" height="280" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+
+        </div>
     </div>
 
 
@@ -427,74 +508,6 @@
 					</div>
 				</div>
 
-				<div class="skill-div" id="skills" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000"
-					data-aos-once="true">
-					<span class="space-mono-txt underline--magical mobile-hide">skills</span>
-					<p class="mobile-first-fold float-Right">_skills</p>
-
-
-					<div class="skills-grid spacing-div">
-						<div class="skill-box">
-							<span class="devicons devicons-html5"></span>
-							<p>HTML5</p>
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-css3"></span>
-							<p>CSS3</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-javascript"></span>
-							<p>Vanilla Javascript</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-jquery"></span>
-							<p>Jquery</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-sass"></span>
-							<p>SASS</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-responsive"></span>
-							<p>Responsive Web Design</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-bootstrap"></span>
-							<p>Bootstrap</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-github_badge"></span>
-							<p>Git</p>
-
-						</div>
-						<div class="skill-box">
-							<span class="devicons devicons-npm"></span>
-							<p>Package managers and Bundlers</p>
-						</div>
-					</div>
-
-					<!-- <div class="card-grid">
-				 <div class="single-module">
-					 <div class="module-img">
-						<span class="devicons devicons-html5 colored"></span>
-
-					 </div>
-					 <p>HTML5</p>
-
-				 </div>
-				 <div class="single-module">
-
-				 </div>
-				 <div class="single-module">
-					 
-				 </div>
-			 </div> -->
     </div>
 
     <div class="about-div" data-aos="flip-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
@@ -625,7 +638,7 @@
 
     </div>
     </div>
-    </div> -->
+    </div> 
 
 
     <script type="module" src='./main.js'></script>
@@ -670,13 +683,23 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.js"
         integrity="sha256-Q0sEDDg+H9/M1xkbxiTumdOPvJ5cvyGPxpRjM2hWyyM=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         new fullpage('#fullpage', {
             //options here
-            anchors: ['about', 'skills'],
+            anchors: ['about', 'skills','work'],
             autoScrolling: true,
             scrollHorizontally: true,
-            navigation: true
+            navigation: true,
+            afterLoad: function(origin, destination, direction){
+            //using anchorLink
+            if(destination.anchor == 'work'){
+                $('body').addClass('work-section');
+            }
+            else {
+                $('body').removeClass('work-section')
+            }
+        }
         });
     </script>
 </body>

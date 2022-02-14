@@ -1,7 +1,15 @@
 /*================================================
 Start Important Part
 ==================================================*/
+.scrolling-wrapper-flexbox{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 
+  .card {
+    flex: 0 0 auto;
+  }
+}
 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
@@ -202,3 +210,84 @@ svg path {
   top: -70px;
   pointer-events: none;
 }
+.bash-wind {
+  font-size: 14px;
+}
+
+// .terminal-panel :nth-child(1) {
+//   fill: #FF605C;
+// }
+
+
+body.work-section > div .first-fold-web {
+  h1, p {
+    color: #121212 !important;
+  }
+}
+
+body.work-section > header .header-logo {
+  color: #121212;
+}
+body.work-section > header .orange-hover {
+  color: #121212;
+
+  &:hover {
+    color: #121212 !important;
+  }
+}
+
+
+.button_animated {
+  position: relative;
+  display: inline-block;
+  padding: 15px 33px;
+  font-family: "Roboto Mono",monospace;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #000;
+  border: 2px solid #ff9f35;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  margin: 20px 0;
+}
+.button_animated::before,
+.button_animated::after {
+
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+
+}
+
+.button_animated:hover::before {
+    border-color: #121212;
+    transform: translate(-10px,-10px);
+  }
+  .button_animated:hover::after {
+    transform: translate(10px,10px);
+    border-color: #0bda8f;
+  }
+
+
+  .spotify-frame {
+    -webkit-box-shadow: 4px 4px 0 #1DB954;
+    box-shadow: 4px 4px 0 #1DB954;
+    padding: 20px;
+    border: 1px solid #1DB954;
+  }
