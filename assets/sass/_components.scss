@@ -1,5 +1,6 @@
 @import "_base";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Code+Pro:wght@300;400&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300;400&family=Space+Mono:wght@400;700&display=swap');
+
 .animate__animated.animate__fadeInUp {
 	--animate-duration: 1.5s;
 	--animate-delay: 12s;
@@ -182,16 +183,6 @@ nav.shift ul li a:hover {
 	display: none;
 }
 
-.social li {
-	padding: 10px 10px;
-	font-size: 25px;
-	transition: all 0.8s ease-in-out;
-	cursor: pointer;
-}
-
-::-webkit-scrollbar {
-	display: none;
-}
 
 .port-img {
 	display: flex;
@@ -1051,13 +1042,13 @@ label {
 	margin: 0 auto;
 
 	h1 {
-		font-size: 24px;
+		font-size: 26px;
 		line-height: 1.5;
 		font-weight: 400;
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 20px;
 		margin-bottom: 20px;
 
 		a {
@@ -1070,8 +1061,71 @@ label {
 	span {
 		font-size: 24px;
 	}
+
+	.house-music {
+		font-size: 30px;
+		font-weight: bold;
+	}
 }
 
+.social > ul {
+	display: flex;
+}
+.social > ul > li {
+    filter: grayscale(1);
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+	margin: 0 20px 10px 0;
+	&:hover {
+		filter: grayscale(0);
+	}
+	img {
+		width: 40px;
+		height: 40px;
+	}
+
+	:nth-child(1) a img {
+		fill: #0A66C2;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.first-fold-web {
+		padding: 20px;
+
+		h1 {
+			font-size: 14px;
+		}
+
+		p {
+			font-size: 12px;
+		}
+
+		span {
+			font-size: 14px;
+		}
+		.house-music {
+			font-size: 16px !important;
+		}
+	}
+
+	.social > ul > li {
+		filter: grayscale(1);
+		cursor: pointer;
+		transition: all 0.3s ease-in;
+		&:hover {
+			filter: grayscale(0);
+		}
+		img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+	nav {
+		padding: 0 20px;
+		top: 0 !important;
+	}
+  }
 strong {
 	color: #fff;
 }
@@ -1101,21 +1155,7 @@ strong {
 			font-size: 12px !important;
 		}
 	}
-	.first-fold-web {
-		padding: 20px;
 
-		h1 {
-			font-size: 14px;
-		}
-
-		p {
-			font-size: 12px;
-		}
-
-		span {
-			font-size: 14px;
-		}
-	}
 
 	nav {
 		padding: 0 20px;
@@ -1179,4 +1219,23 @@ ul {
 
 .skills-icons ul {
 	text-align: center;
+}
+
+
+//--TERMINAL WINDOW --//
+
+.terminal-window {
+	border: 1px solid #121212;
+	padding: 10px;
+    padding-top: 5px;
+	-webkit-box-shadow: 4px 4px 0 #121217;
+    box-shadow: 4px 4px 0 #121217;
+	max-width: 700px;
+    min-height: 250px;
+}
+
+#typedJS {
+	color: #000;
+	font-size: 16px;
+
 }

@@ -354,6 +354,7 @@
     "to-regex-range": "^5.0.1",
     "tty-browserify": "^0.0.1",
     "type-fest": "^0.20.2",
+    "typed.js": "^2.0.12",
     "unbox-primitive": "^1.0.1",
     "unpipe": "^1.0.0",
     "url": "^0.11.0",
@@ -378,11 +379,11 @@
   },
   "default": "index.html",
   "scripts": {
-     "start": "parcel index.html",
-     "build": "parcel build index.html",
-     "cleanup": "rm -rf .parcel-cache dist",
-     "dev": "npm run cleanup && parcel index.html"
-   },
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "cleanup": "rm -rf .parcel-cache dist",
+    "dev": "npm run cleanup && parcel index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/allanmosesfernandes/allanmosesfernandes.git"
