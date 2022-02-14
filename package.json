@@ -117,7 +117,7 @@
     "filesize": "^6.4.0",
     "fill-range": "^7.0.1",
     "finalhandler": "^1.1.2",
-    "follow-redirects": "^1.14.7",
+    "follow-redirects": "^1.14.8",
     "foreach": "^2.0.5",
     "format": "^0.2.2",
     "fs.realpath": "^1.0.0",
