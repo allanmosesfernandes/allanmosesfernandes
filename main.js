@@ -68,7 +68,6 @@ const emojiElement = document.getElementById('emoji-effect');
 
 function changeEmoji() {
     emojiElement.innerHTML = emojiArray[Math.floor(Math.random() * emojiArray.length)]
-    console.log('sadfasdf');
 }
 
 function checkMagic() {
@@ -140,16 +139,6 @@ function init() {
   };
   // const typedElement = document.querySelector('#typed');
    var typed = new Typed('#typedJS', options);
-
-
-
-   let bob = document.querySelector('#work-it');
-   if(bob.classList.contains('active')) {
-       console.log('sddfsdfas');
-   }
-   else {
-       console.log('no no no');
-   }
 }
 
 

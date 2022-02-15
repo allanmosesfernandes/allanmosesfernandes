@@ -1,6 +1,4 @@
 @import "_base";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300;400&family=Space+Mono:wght@400;700&display=swap');
-
 .animate__animated.animate__fadeInUp {
 	--animate-duration: 1.5s;
 	--animate-delay: 12s;
@@ -20,8 +18,8 @@ nav {
 	display: flex;
 	position: fixed;
 	align-items: center;
-	top: 20px;
-	padding: 0 50px;
+	top: 0;
+	padding: 20px 50px;
 	z-index: 70;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
@@ -29,6 +27,8 @@ nav {
 	font-size: 1.1em;
 	width: 100%;
 	justify-content: space-between;
+	position: sticky;
+	background-color: #0d0d0d;
 }
 
 /* SHIFT */
@@ -1091,7 +1091,7 @@ label {
 
 @media only screen and (max-width: 800px) {
 	.first-fold-web {
-		padding: 20px;
+		padding: 0 20px;
 
 		h1 {
 			font-size: 14px;
@@ -1238,4 +1238,35 @@ ul {
 	color: #000;
 	font-size: 16px;
 
+}
+
+
+// work projects
+#fullpage-not {
+	margin-top: 120px;
+}
+
+.line {
+	display: flex;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.work.line::after {
+	content: "";
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+	background-color: #121212;
+}
+.line::after {
+	content: "";
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+	background-color: #ff9f35;
 }
