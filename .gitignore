@@ -4,3 +4,5 @@ dist/
 .cache/
 .parcel-cache/
 .netlify/
+.parcel-cache
+
