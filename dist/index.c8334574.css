@@ -1276,6 +1276,10 @@ Start Important Part
   transform: translate(23px, -8px) rotatez(45deg);
 }
 @media only screen and (max-width: 800px) {
+  #fullpage-not {
+    margin-top: 30px;
+  }
+
   #menuToggle {
     display: block;
   }
