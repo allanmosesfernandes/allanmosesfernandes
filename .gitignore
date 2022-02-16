@@ -4,4 +4,4 @@ dist/
 .cache/
 .netlify/
 .parcel-cache
-
+.parcel-cache/data.mdb 
