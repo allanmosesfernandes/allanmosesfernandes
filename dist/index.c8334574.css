@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300;400&family=Space+Mono:wght@400;700&display=swap";
 @charset "UTF-8";
 *,
 html {
@@ -1202,6 +1203,9 @@ Start Important Part
   overflow-x: scroll;
 }
 .scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+}
+.card {
   flex: 0 0 auto;
 }
 .underline--magical {

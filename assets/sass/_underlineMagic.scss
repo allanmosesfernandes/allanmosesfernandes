@@ -11,6 +11,10 @@ Start Important Part
   }
 }
 
+  .card {
+    flex: 0 0 auto;
+  }
+
 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
@@ -150,7 +154,6 @@ Start Important Part
   justify-content: center;
   flex: 0;
 }
-
 #menuToggle input:checked~ul {
   transform: none;
 }
@@ -222,7 +225,6 @@ Start Important Part
   top: -70px;
   pointer-events: none;
 }
-
 .bash-wind {
   font-size: 14px;
 }
