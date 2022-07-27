@@ -1099,10 +1099,7 @@ label {
     &:hover {
       filter: grayscale(0);
     }
-    img {
-      width: 20px;
-      height: 20px;
-    }
+
   }
   nav {
     padding: 0 20px;
@@ -1253,7 +1250,7 @@ ul {
   background-color: #ffc233;
   border-radius: 50%;
   background-position-y: 100px;
-  width: 200px;
+  width: 300px;
   padding: 20px;
 }
 
@@ -1298,5 +1295,9 @@ ul {
 
   .enjoy-line {
     flex-wrap: wrap;
+  }
+
+  .nerd {
+	width: 200px;
   }
 }
