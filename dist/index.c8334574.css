@@ -24,6 +24,32 @@ body {
     border-right-color: transparent;
   }
 }
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #e74c3c;
+  color: white;
+  font-family: Gelasio;
+  font-size: 18px;
+}
+.bar_content {
+  display: block;
+  /* Important to give the content a width */
+  width: 100%;
+  transform: translateX(100%);
+  /* Animation start out of the screen */
+  /* Add the animation */
+  animation: move 15s linear infinite;
+}
+/* Create the animation */
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
 *,
 html {
   margin: 0;
@@ -46,6 +72,32 @@ body {
   }
   to {
     border-right-color: transparent;
+  }
+}
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #e74c3c;
+  color: white;
+  font-family: Gelasio;
+  font-size: 18px;
+}
+.bar_content {
+  display: block;
+  /* Important to give the content a width */
+  width: 100%;
+  transform: translateX(100%);
+  /* Animation start out of the screen */
+  /* Add the animation */
+  animation: move 15s linear infinite;
+}
+/* Create the animation */
+@keyframes move {
+  to {
+    transform: translateX(-100%);
   }
 }
 .animate__animated.animate__fadeInUp {
@@ -938,7 +990,7 @@ label {
   height: 40px;
 }
 .social > ul > li :nth-child(1) a img {
-  fill: #0A66C2;
+  fill: #0a66c2;
 }
 @media only screen and (max-width: 800px) {
   .first-fold-web {
@@ -1092,6 +1144,53 @@ ul {
   height: 1px;
   margin-left: 20px;
   background-color: #ff9f35;
+}
+.nerd {
+  background-color: #ffc233;
+  border-radius: 50%;
+  background-position-y: 100px;
+  width: 200px;
+  padding: 20px;
+}
+.nerd-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.nerd-details {
+  padding: 30px;
+}
+.enjoy-img {
+  width: 38px;
+  height: 38px;
+}
+.enjoy-line {
+  display: flex;
+  align-items: center;
+}
+/* Media Query for Nerd Allan */
+@media screen and (max-width: 800px) {
+  .nerd-container {
+    flex-direction: column;
+  }
+
+  .nerd-details {
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .enjoy-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .enjoy-line {
+    flex-wrap: wrap;
+  }
 }
 .music-container {
   display: flex;
