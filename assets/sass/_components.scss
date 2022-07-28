@@ -29,7 +29,12 @@ nav {
   width: 100%;
   justify-content: space-between;
   position: sticky;
-  background-color: #0d0d0d;
+  background-color: var(--main-bg);
+  color: var(--text-color);
+
+  h1 {
+    color: var(--text-color);
+  }
 }
 
 /* SHIFT */
@@ -53,7 +58,7 @@ nav.shift ul li a:hover {
   color: #ff9f35;
   text-decoration: none;
   border-bottom: 1px dashed #ff9f35;
-
+  font-weight: bold;
   &:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
@@ -61,7 +66,7 @@ nav.shift ul li a:hover {
     background-repeat: repeat-x;
     text-decoration: none;
     border-bottom: none;
-    color: #ffffff !important;
+    color: var(--text-color) !important;
   }
 }
 
@@ -1099,16 +1104,15 @@ label {
     &:hover {
       filter: grayscale(0);
     }
-
   }
   nav {
     padding: 0 20px;
     top: 0 !important;
   }
 }
-strong {
-  color: #fff;
-}
+// strong {
+//   color: #fff;
+// }
 
 #emoji-effect {
   cursor: pointer;
@@ -1145,22 +1149,17 @@ strong {
   }
 
   .header-logo {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
 .header-logo {
   font-family: "Roboto Slab", serif;
-  color: #fff;
+  //   color: #fff;
 }
 
 .logo-end {
   color: #ff9f35;
-}
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  background: #f2f2f2 !important;
 }
 
 /*
@@ -1264,9 +1263,14 @@ ul {
   padding: 30px;
 }
 
-.enjoy-img {
-  width: 38px;
-  height: 38px;
+.enjoy-img-dark {
+  //   width: 38px;
+  //   height: 38px;
+  fill: #fff;
+}
+
+.enjoy-img-light {
+  fill: #000;
 }
 
 .enjoy-line {
@@ -1298,6 +1302,33 @@ ul {
   }
 
   .nerd {
-	width: 200px;
+    width: 200px;
   }
+}
+
+/* toggle */
+
+.toggle-container {
+  position: relative;
+  float: right;
+}
+
+.theme-icon {
+  width: 30px;
+  fill: var(--svg-color);
+}
+
+#lighter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.svg-container {
+  width: 50px;
+  height: 50px;
 }

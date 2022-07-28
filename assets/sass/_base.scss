@@ -8,10 +8,55 @@ html {
 
 body {
   font-family: "Space Mono", monospace;
-  background-color: #0d0d0d;
-  color: #aaa;
+}
+.dark-mode {
+  --main-bg: #0d0d0d;
+  --text-color: #f2f2f2;
+  --svg-color: #ffffff;
 }
 
+.light-mode {
+  --main-bg: #f2f2f2;
+  --text-color: #0d0d0d;
+  --svg-color: #020202;
+}
+
+#fullpage {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  fill: var(--svg-color);
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: none !important;
+  border: 2px solid #ff9f35 !important;
+}
+
+.section {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  fill: var(--svg-color);
+}
+.light-mode-text {
+  color: #ff8600;
+  text-decoration: none;
+  border-bottom: 1px dashed #ff8600;
+
+  &:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    border-bottom: none;
+    color: #020202 !important;
+  }
+}
+
+.fill-black {
+  fill: #020202;
+}
 .txt {
   border-right: 1px solid white;
   animation: blinkTextCursor 500ms steps(40) infinite normal;
@@ -73,6 +118,10 @@ text {
   stroke-width: 0.3px;
   stroke-linejoin: round;
   animation: 2s pulsate infinite;
+}
+
+.house-text {
+  stroke: #1db954;
 }
 @keyframes pulsate {
   50% {

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav id="main" class="" role="navigation">
+    <nav id="main" class="dark-mode">
         <a href="/">
             <h1 class="header-logo">
                 Allan Fernandes <span class="logo-end">{ }</span>
@@ -61,9 +61,22 @@
     </nav>
     <!--SVG SPRITE-->
 
-    <div id="fullpage">
-        <div class="section">
+    <div id="fullpage" class="dark-mode">
+        <div class="section" class="dark-mode">
             <section class="first-fold-web">
+                <div class="toggle-container">
+                    <input id="lighter" type="checkbox" id="theme" class="toggle-input">
+                    <label for="theme" class="toggle-label">
+                        <div class="svg-container">
+                            <svg class="enjoy-img" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 50 50">
+                                <path
+                                    d="M24.05 46.55 17.3 40H8v-9.3L1.3 24 8 17.3V8h9.3l6.75-6.7L30.7 8H40v9.3l6.7 6.7-6.7 6.7V40h-9.3Zm0-9.55q5.4 0 9.175-3.8Q37 29.4 37 23.95q0-5.4-3.775-9.175Q29.45 11 24.05 11Zm0 5.35 5.4-5.35H37v-7.55L42.45 24 37 18.55V11h-7.55l-5.4-5.45-5.5 5.45H11v7.55L5.55 24 11 29.45V37h7.5ZM24 23.95Z" />
+                            </svg>
+                        </div>
+
+                    </label>
+                </div>
+
                 <h1>
                     Hello <span id="emoji-effect">👋</span> <br>I'm Allan.
                 </h1>
@@ -87,8 +100,8 @@
                     <p>
                         with an ardent interest in making web designs come alive and genuinely caring about user
                         experience & design.Currently pursuing my Master's in Computer Science from <a
-                            href="https://www.ntu.ac.uk/" style="color:#ff9f35" class="orange-hover" target="_blank"
-                            rel="noopener" aria-label="Nottingham Trent University">Nottingham Trent University.</a>
+                            href="https://www.ntu.ac.uk/" class="orange-hover" target="_blank" rel="noopener"
+                            aria-label="Nottingham Trent University">Nottingham Trent University. </a>
                     </p>
                     <p>
                         I've been making websites for the past two and a half years often using pure Javascript, (S)CSS,
@@ -96,15 +109,27 @@
                         <strong>ReactJS</strong> & <strong>Node.js</strong>.
                     </p>
                     <p class="enjoy-line">
-                        I enjoy&nbsp;<img src="./assets/images/enjoy/home.svg" class="enjoy-img">-music,<span
-                            class="breaker"></span>&nbsp; <img src="./assets/images/enjoy/gaming.svg" class="enjoy-img">
-                        &nbsp;and play some&nbsp;<img src="./assets/images/enjoy/football.svg"
-                            class="enjoy-img">&nbsp;in my free time.
+                        I enjoy&nbsp;
+                        <svg class="enjoy-img" xmlns="http://www.w3.org/2000/svg" height="48" width="48"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M8 42V18L24.1 6 40 18v24H28.3V27.75h-8.65V42Zm3-3h5.65V24.75H31.3V39H37V19.5L24.1 9.75 11 19.5Zm13-14.65Z" />
+                        </svg>-music,
+                        &nbsp; <svg class="enjoy-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="48"
+                            width="48">
+                            <path
+                                d="M9.45 40q-3.15 0-5.2-2.2-2.05-2.2-2.15-5.15 0-.4.05-.9t.15-.9l4.2-16.8q.7-2.65 2.875-4.35Q11.55 8 14.25 8h19.5q2.7 0 4.875 1.7t2.875 4.35l4.2 16.8q.1.45.175.925.075.475.075.925 0 3-2.125 5.15Q41.7 40 38.55 40q-2.1 0-3.9-1.1-1.8-1.1-2.7-3l-1.4-2.9q-.25-.55-.725-.775Q29.35 32 28.75 32h-9.5q-.6 0-1.075.225T17.45 33l-1.4 2.9q-.9 1.9-2.7 3-1.8 1.1-3.9 1.1Zm.15-3q1.1 0 2.125-.575T13.4 34.6l1.4-2.85q.65-1.3 1.825-2.025Q17.8 29 19.25 29h9.5q1.4 0 2.6.75 1.2.75 1.9 2l1.4 2.85q.65 1.25 1.675 1.825T38.45 37q1.7 0 3.05-1.175 1.35-1.175 1.4-3.075 0-.25-.025-.575-.025-.325-.125-.625l-4.2-16.75q-.4-1.7-1.725-2.75Q35.5 11 33.75 11h-19.5q-1.75 0-3.075 1.05Q9.85 13.1 9.45 14.8l-4.2 16.75q-.05.2-.15 1.15 0 1.9 1.4 3.1Q7.9 37 9.6 37ZM27 21.5q-.6 0-1.05-.45-.45-.45-.45-1.1 0-.6.45-1.025.45-.425 1.1-.425.6 0 1.025.425.425.425.425 1.075 0 .6-.425 1.05-.425.45-1.075.45Zm4-4q-.6 0-1.05-.45-.45-.45-.45-1.1 0-.6.45-1.025.45-.425 1.1-.425.6 0 1.025.425.425.425.425 1.075 0 .6-.425 1.05-.425.45-1.075.45Zm0 8q-.6 0-1.05-.45-.45-.45-.45-1.1 0-.6.45-1.025.45-.425 1.1-.425.6 0 1.025.425.425.425.425 1.075 0 .6-.425 1.05-.425.45-1.075.45Zm4-4q-.6 0-1.05-.45-.45-.45-.45-1.1 0-.6.45-1.025.45-.425 1.1-.425.6 0 1.025.425.425.425.425 1.075 0 .6-.425 1.05-.425.45-1.075.45Zm-18 3.25q-.5 0-.875-.375t-.375-.875v-2.25H13.5q-.5 0-.875-.375T12.25 20q0-.5.375-.875t.875-.375h2.25V16.5q0-.5.375-.875T17 15.25q.5 0 .875.375t.375.875v2.25h2.25q.5 0 .875.375t.375.875q0 .5-.375.875t-.875.375h-2.25v2.25q0 .5-.375.875T17 24.75Z" />
+                        </svg>
+                        &nbsp;and play some <svg xmlns="http://www.w3.org/2000/svg" class="enjoy-img" height="48"
+                            width="48" viewBox="0 0 50 50">
+                            <path
+                                d="M24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.775t4.3-6.35q2.725-2.725 6.375-4.3Q19.9 4 24 4q4.15 0 7.775 1.575t6.35 4.3q2.725 2.725 4.3 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.3 6.375-2.725 2.725-6.35 4.3Q28.15 44 24 44Zm10.25-24.65 3.45-1.2.9-3.2q-1.7-2.65-4.2-4.525-2.5-1.875-5.65-2.875L25.5 9.7v3.5Zm-20.45 0 8.7-6.15V9.7l-3.2-2.15q-3.15 1-5.65 2.875-2.5 1.875-4.2 4.525l1.1 3.2Zm-2.7 16 3-.35 1.95-3.25-3.1-9.55L9.4 21 7 22.95q0 3.6.8 6.575t3.3 5.825ZM24 41q1.35 0 2.725-.25t2.875-.65l1.65-3.6-1.6-2.75H18.4l-1.6 2.75 1.65 3.6q1.3.4 2.75.65T24 41Zm-5.3-10.25h10.4l3.05-9.15L24 15.75l-8.3 5.85Zm18.25 4.6q2.45-2.85 3.25-5.825.8-2.975.8-6.575l-2.4-1.65-3.5.9-3.1 9.55L33.9 35Z" />
+                        </svg>&nbsp;in my free time.
                     </p>
                 </div>
             </section>
         </div>
-        <div class="section" data-anchor="skills">
+        <div class="section" class="dark-mode" data-anchor="skills">
             <section class="first-fold-web">
                 <h1 style="color:#ff9f35; font-weight: bold;" class="line">
                     <bold>Skills & Tools</bold>
@@ -190,10 +215,10 @@
 
         </div>
         <!-- Works Section -->
-        <div class="section" data-anchor="work" style="background-color: #FFFAF0;" id="work-it" data-anchor="work">
+        <div class="section" class="dark-mode" data-anchor="work" style="background-color: #FFFAF0;" id="work-it">
             <section class="first-fold-web">
                 <h1 style="color:#ff9f35; font-weight: bold;" class="work line">
-                    <bold>Work </bold>
+                    Work
                 </h1>
                 <div class="typing-effect">
                     <p style="margin-top: 15px; margin-bottom: 30px">
@@ -203,7 +228,7 @@
                     <div class="terminal-window">
                         <div class="terminal-panel">
                             <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#FF605C" width="10"
-                                height="10" title="">
+                                height="10">
                                 <path
                                     d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0" />
                                 <path
@@ -239,7 +264,7 @@
                     </div>
                     <a href="./work.html">
                         <buton class="button_animated">
-                            <img src="./assets/images/icons/rocket.png">
+                            <img src="./assets/images/icons/rocket.png" alt="rocket">
                             Projects
                             </button>
                     </a>
@@ -248,7 +273,7 @@
 
         </div>
 
-        <div class="section" data-anchor="contact">
+        <div class="section" class="dark-mode" data-anchor="contact">
             <div class="first-fold-web">
                 <div class="nerd-container">
                     <img class="nerd" src="./assets/images/nerd.png" alt="allan-animated">
@@ -266,24 +291,24 @@
                                 <li>
                                     <a href="https://linkedin.com/in/allan-fernandes-13b38a137" target="_blank"
                                         rel="noopener" aria-label="linked-in">
-                                        <img src="./assets/images/icons/linkedin.svg">
+                                        <img src="./assets/images/icons/linkedin.svg" alt="linkedin-icon">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="mailto:fernzallan14@gmail.com" title="fernzallan14@gmail.com">
-                                        <img src="./assets/images/icons/gmail.svg">
+                                        <img src="./assets/images/icons/gmail.svg" alt="gmail-icon">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/allan_fernz" target="_blank" rel="noopener"
                                         aria-label="twitter">
-                                        <img src="./assets/images/icons/twitter.svg">
+                                        <img src="./assets/images/icons/twitter.svg" alt="twitter-icon">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://discordapp.com/users/6129" target="_blank" rel="noopener"
-                                        aria-label="twitter">
-                                        <img src="./assets/images/icons/discord.svg">
+                                    <a href="https://github.com/allanmosesfernandes" target="_blank" rel="noopener"
+                                        aria-label="github">
+                                        <img src="./assets/images/icons/github.svg" alt="github-icon">
                                     </a>
                                 </li>
                             </ul>
@@ -294,12 +319,12 @@
             </div>
 
         </div>
-        <div class="section" data-anchor="contact">
+        <div class="section" class="dark-mode" data-anchor="house">
             <div class="first-fold-web">
                 <!-- <p class="house-music"> -->
                 <div>
                     <svg viewBox="230 0 250 50" class="house">
-                        <text y="40"> house music is important.</text>
+                        <text y="40" class="house-text"> house music is important.</text>
                         <!-- <text y="50">is important</text> -->
                     </svg>
                 </div>
@@ -309,10 +334,12 @@
 
                 <iframe class="spotify-frame"
                     src="https://open.spotify.com/embed/playlist/0gFsp1Dqf4H7TGlPtLZ7d5?utm_source=generator&theme=0"
-                    width="100%" height="300" frameBorder="0" allowfullscreen=""
+                    height="300" allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
-
+            <footer>
+                Created with ❤️ by Allan Fernandes.
+            </footer>
         </div>
     </div>
 
