@@ -1,0 +1,87 @@
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    align-items: center;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.service__head h3 {
+    text-align: center;
+    color: var(--color-bg);
+}
+
+.service {
+    margin: 0 auto;
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    height: fit-content;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+
+}
+
+.service:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+
+
+.service__head {
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.service__list {
+    padding: 2rem;
+}
+
+.service__list-icon {
+    color: var(--color-primary);
+}
+
+/*========MEDIA QUERIES (Tablets)=============*/
+@media screen and (max-width: 1024px) {
+    .services__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+}
+
+/*========MEDIA QUERIES (Small Devices)=============*/
+@media screen and (max-width: 600px) {
+
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 0 1rem;
+    }
+
+    .about__content p {
+        margin: 2rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+}
