@@ -21,7 +21,7 @@ const Hero = () => {
         <Link to='about'>
             <button className='hero-cta arrow'>
                 Get Started
-            {/* <GrFormNextLink style={{marginTop:`3px`}}/> */}
+            <GrFormNextLink className='arrow' style={{marginTop:`3px`}} color="white"/>
             </button>
         </Link>
 
