@@ -92,7 +92,7 @@
     "dotenv": "^7.0.0",
     "dotenv-expand": "^5.1.0",
     "ee-first": "^1.1.1",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.7",
     "electron-to-chromium": "^1.4.66",
     "elliptic": "^6.5.4",
     "emoji-regex": "^8.0.0",
