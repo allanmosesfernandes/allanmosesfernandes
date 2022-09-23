@@ -27,6 +27,11 @@ body {
   fill: var(--svg-color);
 }
 
+#fullpage-not {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  fill: var(--svg-color);
+}
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
   background: none !important;

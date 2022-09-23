@@ -24,7 +24,7 @@
 </head>
 
 <body>
-        <nav id="main" class="" role="navigation">
+        <nav id="main" class="dark-mode" role="navigation">
             <a href="/">
                 <h1 class="header-logo">
                     Allan Fernandes <span class="logo-end">{ }</span>
@@ -36,7 +36,7 @@
                 <li><a href="/#work" class="orange-hover">work</a></li>
                 <li><a href="/#contact" class="orange-hover">contact</a></li>
             </ul>
-            <div id="menuToggle">
+            <div id="menuToggle"> 
 
                 <input type="checkbox" class="toggler" id="check" />
                 <svg width="32" height="42" viewBox="0 0 32 42" xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +66,8 @@
         </nav>
     <!--SVG SPRITE-->
 
-    <div id="fullpage-not">
-        <div class="section">
+    <div id="fullpage-not" class="dark-mode">
+        <div class="section" class="dark-mode">
             <section class="first-fold-web">
                 <h1 class="line">
                     A few things I've built
@@ -258,6 +258,26 @@
                 }
             }
         });
+
+        const checkboxer = document.getElementById("lighter");
+checkboxer.addEventListener("change", replaceClass);
+let element = document.getElementById("fullpage");
+let orangeHover = Array.from(document.querySelectorAll(".orange-hover"));
+let icons = Array.from(document.querySelectorAll(".enjoy-img-dark"));
+let houseText = document.querySelector(".house-text");
+// first select all the section
+let navbar = document.getElementById("main");
+console.log(houseText);
+function replaceClass() {
+  if (checkboxer.checked) {
+    element.classList.replace("dark-mode", "light-mode");
+    navbar.classList.replace("dark-mode", "light-mode");
+  } else {
+    element.classList.replace("light-mode", "dark-mode");
+    navbar.classList.replace("light-mode", "dark-mode");
+
+  }
+}
     </script>
 </body>
 

@@ -1217,7 +1217,7 @@ ul {
 
 // work projects
 #fullpage-not {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .line {
@@ -1233,16 +1233,17 @@ ul {
   width: 300px;
   height: 1px;
   margin-left: 20px;
-  background-color: #121212;
+  background-color: #ff9f35;
+
 }
 .line::after {
   content: "";
   display: block;
   position: relative;
   width: 300px;
-  height: 1px;
+  height: 4px;
   margin-left: 20px;
-  background-color: #600fff;
+  background-color: #ff9f35;
 }
 
 .nerd {
