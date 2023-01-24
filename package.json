@@ -395,5 +395,8 @@
   "bugs": {
     "url": "https://github.com/allanmosesfernandes/allanmosesfernandes/issues"
   },
-  "homepage": "https://github.com/allanmosesfernandes/allanmosesfernandes#readme"
+  "homepage": "https://github.com/allanmosesfernandes/allanmosesfernandes#readme",
+  "devDependencies": {
+    "netlify-cli": "^11.8.2"
+  }
 }
