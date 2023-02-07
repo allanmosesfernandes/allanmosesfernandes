@@ -145,7 +145,6 @@ let icons = Array.from(document.querySelectorAll(".enjoy-img-dark"));
 let houseText = document.querySelector(".house-text");
 // first select all the section
 let navbar = document.getElementById("main");
-console.log(houseText);
 function replaceClass() {
   if (checkboxer.checked) {
     element.classList.replace("dark-mode", "light-mode");
