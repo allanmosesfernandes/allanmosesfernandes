@@ -397,6 +397,6 @@
   },
   "homepage": "https://github.com/allanmosesfernandes/allanmosesfernandes#readme",
   "devDependencies": {
-    "netlify-cli": "^11.8.2"
+    "netlify-cli": "^12.12.0"
   }
 }
