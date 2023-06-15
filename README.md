@@ -3,8 +3,6 @@
 
 ![Snake animation](https://github.com/allanmosesfernandes/allanmosesfernandes/blob/output/github-contribution-grid-snake.svg)
 
-[![Allans Guthub Stats](https://github-readme-stats.vercel.app/api?username=allanmosesfernandes&show_icons=true&hide_rank=true)](https://github.com/allanmosesfernandes/github-readme-stats)
-
-
+![Allan's GitHub stats](https://github-readme-stats.vercel.app/api?username=allanmosesfernandes&show_icons=true&theme=radical)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allanmosesfernandes&layout=donut-vertical)](https://github.com/allanmosesfernandes/github-readme-stats)
