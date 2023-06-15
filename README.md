@@ -7,9 +7,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allanmosesfernandes&layout=donut-vertical)](https://github.com/allanmosesfernandes/github-readme-stats)
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=allanmosesfernandes" alt="allanmosesfernandes" /></a> </p>
 
-- 🌱 I’m currently learning **React & Node.js**
+- 🌱 I’m currently learning **NextJs & Node.js**
 
 - 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/)
 
