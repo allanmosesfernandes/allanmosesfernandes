@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Allan Fernandes</h1>
-<h3 align="center">A passionate frontend developer based in UK</h3>
+<h3 align="center">Crafting captivating digital interfaces from the heart of the UK.</h3>
 
 ![Snake animation](https://github.com/allanmosesfernandes/allanmosesfernandes/blob/output/github-contribution-grid-snake.svg)
 
