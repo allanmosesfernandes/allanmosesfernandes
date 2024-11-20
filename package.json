@@ -349,7 +349,7 @@
     "svgo": "^2.8.0",
     "term-size": "^2.2.1",
     "terminal-link": "^2.1.1",
-    "terser": "^5.10.0",
+    "terser": "^5.14.2",
     "timers-browserify": "^2.0.12",
     "timsort": "^0.3.0",
     "to-fast-properties": "^2.0.0",
