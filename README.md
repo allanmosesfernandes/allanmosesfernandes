@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Allan Fernandes</h1>
 <a href="https://www.allanfernandes.dev">Personal website</a>
+
+
 - 🌱 I’m currently learning **NextJs & Node.js**
 
 - 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/)
