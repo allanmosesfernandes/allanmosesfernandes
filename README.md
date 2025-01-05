@@ -1,12 +1,5 @@
 <h1 align="center">Hi 👋, I'm Allan Fernandes</h1>
-<h3 align="center">Crafting captivating digital interfaces from the heart of the UK.</h3>
-
-![Snake animation](https://github.com/allanmosesfernandes/allanmosesfernandes/blob/output/github-contribution-grid-snake.svg)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=allanmosesfernandes&layout=compact)
-
-
-
+<a href="https://www.allanfernandes.dev">Personal website</a>
 - 🌱 I’m currently learning **NextJs & Node.js**
 
 - 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/)
