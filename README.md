@@ -1,6 +1,4 @@
-<h1 align="center">Hi 👋, I'm Allan Fernandes</h1>
-<a href="https://www.allanfernandes.dev">Personal website</a>
-
+<h1>Hi 👋, I'm <a href="https://www.allanfernandes.dev">Allan Fernandes</a></h1>
 
 - 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/projects)
 
