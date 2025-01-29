@@ -2,9 +2,7 @@
 <a href="https://www.allanfernandes.dev">Personal website</a>
 
 
-- 🌱 I’m currently learning **NextJs & Node.js**
-
-- 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/)
+- 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/projects)
 
 - 📫 How to reach me **fernzallan14@gmail.com**
 
