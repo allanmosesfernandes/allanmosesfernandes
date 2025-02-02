@@ -1,7 +1,6 @@
 <h1>Hi 👋, I'm <a href="https://www.allanfernandes.dev">Allan Fernandes</a></h1>
-I like <del>breaking</del> making things that live on the internet using ReactJS and other frontend technologies.
-
-<img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png">
+I like <del>breaking</del> making things that live on the internet using ReactJS and other frontend technologies.  
+<img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png">  
 
 - 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/projects)
 - 📫 How to reach me **fernzallan14@gmail.com**
@@ -10,5 +9,4 @@ I like <del>breaking</del> making things that live on the internet using ReactJS
 <p align="left">
 <a href="https://twitter.com/https://twitter.com/allan_fernz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="https://twitter.com/allan_fernz" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/allanmosesfernandes/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/allanmosesfernandes/" height="30" width="40" /></a>
-<a href="https://instagram.com/predominantlyallan" target="blank"><img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png" alt="predominantlyallan" height="30" width="40" /></a>
 </p>
