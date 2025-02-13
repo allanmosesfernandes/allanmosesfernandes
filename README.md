@@ -1,9 +1,9 @@
-<h1>Hi 👋 I'm <a href="https://www.allanfernandes.dev">Allan Fernandes</a></h1>
-I like <del>breaking</del> making things that live on the internet and sometimes write very poor commit descriptions in a rush. 
+<h1>Hey there! 👋 <br />I'm <a href="https://www.allanfernandes.dev">Allan Fernandes</a></h1>
+I like <del>breaking</del> making things that live on the internet and sometimes write very poor commit descriptions in a rush<br />. 
 <img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png">  
 
-- 👨‍💻 All of my projects are available at [https://allanfernandes.dev/](https://allanfernandes.dev/projects)
-- 📫 How to reach me **fernzallan14@gmail.com**
+👨‍💻 You can find out more about me and my projects on [https://allanfernandes.dev/](https://allanfernandes.dev/projects)<br />
+📫 How to reach me **fernzallan14@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
