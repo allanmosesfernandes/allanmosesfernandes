@@ -2,8 +2,8 @@
 
 I like <del>breaking</del> making things that live on the internet and sometimes write very poor commit descriptions in a rush<br />. 
 <img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png">  
-<br />I am a web developer with four years of experience working as a web developer at [Responsible Life](https://www.responsiblelife.co.uk/)</br>
-My technology stack mostly involves Javascript and javascript frameworks predominantly React<br />Besides programming, I have an immense interest in football, psychological thrillers and an avid reader
+<br />I am a web developer with four years of experience working at [Responsible Life](https://www.responsiblelife.co.uk/)</br>
+My technology stack mostly involves Javascript and javascript frameworks predominantly React<br />Besides programming, I have an immense interest in [football](https://www.allanfernandes.dev/tekkers), psychological thrillers and an avid reader
 
 - 👨‍💻 You can find out more about me and my projects on [https://allanfernandes.dev/](https://allanfernandes.dev/projects)<br />
 - 📫 How to reach me: fernzallan14@gmail.com
@@ -14,8 +14,13 @@ My technology stack mostly involves Javascript and javascript frameworks predomi
 ![JavaScript(ES6)](https://img.shields.io/badge/-JavaScript-black?logo=javascript&style=social)&nbsp;&nbsp;
 ![Typescript](https://img.shields.io/badge/-Typescript-black?logo=typescript&style=social)&nbsp;&nbsp;
 ![React](https://img.shields.io/badge/-React-black?logo=react&style=social)&nbsp;&nbsp;
+![Node.js](https://img.shields.io/badge/-Node.js-black?logo=nodedotjs&style=social)&nbsp;&nbsp;
 ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-black?logo=tailwindcss&style=social)&nbsp;&nbsp;
 ![Redux](https://img.shields.io/badge/-Redux-black?logo=redux&style=social)&nbsp;&nbsp;
+![NextJS](https://img.shields.io/badge/-Next.JS-black?logo=nextdotjs&style=social)&nbsp;&nbsp;
+![Jest](https://img.shields.io/badge/-Jest-black?logo=jest&style=social)&nbsp;&nbsp;
+![Styled Components](https://img.shields.io/badge/-StyledComponents-black?logo=styledcomponents&style=social)&nbsp;&nbsp;
+![Netlify](https://img.shields.io/badge/-NetlifyJS-black?logo=netlify&style=social)&nbsp;&nbsp;
 ![HTML5](https://img.shields.io/badge/-HTML5-black?logo=html5&style=social)&nbsp;&nbsp;
 ![CSS3](https://img.shields.io/badge/-CSS3-black?logo=css3&style=social)&nbsp;&nbsp;
 ![jQuery](https://img.shields.io/badge/-jQuery-black?logo=jquery&style=social)&nbsp;&nbsp;
