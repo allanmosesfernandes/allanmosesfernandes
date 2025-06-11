@@ -1,4 +1,4 @@
-<h1>Hi there! 👋 I am <a href="https://www.allanfernandes.dev">Allan Fernandes 😁</a></h1>
+<h1>Hi there! 👋 I am <a href="https://www.allanfernandes.dev">Allan Fernandes</a></h1>
 
 I like <strong><em><del>breaking</del></em></strong> making things that live on the internet and sometimes write very poor commit descriptions in a rush<br />. 
 <img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png">  
