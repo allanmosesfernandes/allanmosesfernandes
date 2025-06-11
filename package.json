@@ -24,7 +24,7 @@
     "bl": "^4.1.0",
     "bn.js": "^5.2.0",
     "boolbase": "^1.0.0",
-    "brace-expansion": "^1.1.11",
+    "brace-expansion": "^1.1.12",
     "braces": "^3.0.2",
     "brorand": "^1.1.0",
     "browserify-aes": "^1.2.0",
