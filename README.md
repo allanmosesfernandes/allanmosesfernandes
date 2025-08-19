@@ -28,5 +28,3 @@ My technology stack mostly involves Javascript and javascript frameworks predomi
 ![MySQL](https://img.shields.io/badge/-MySQL-black?logo=mysql&style=social)&nbsp;&nbsp;
 ![Git](https://img.shields.io/badge/-Git-black?logo=git&style=social)&nbsp;&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=social)&nbsp;&nbsp;
-
-![Allan's Github Stats](https://github-readme-stats.vercel.app/api?username=allanmosesfernandes&count_private=true&show_icons=true&include_all_commits=true)
