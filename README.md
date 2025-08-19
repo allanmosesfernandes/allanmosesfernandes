@@ -2,12 +2,12 @@
 
 I like <strong><em><del>breaking</del></em></strong> making things that live on the internet and sometimes write very poor commit descriptions in a rush<br />. 
 <img align="center" src="https://github.com/allanmosesfernandes/allanmosesfernandes/blob/master/image.png">  
-<br />I'm a web developer with four years of experience currently working at [Responsible Life](https://www.responsiblelife.co.uk/)</br>
-My technology stack mostly involves Javascript and javascript frameworks predominantly React<br />Besides programming, I have immense interests in [football](https://www.allanfernandes.dev/tekkers), psychological thrillers and an avid non-fiction reader.
-><strong>“The more I learn, the more I realize how much I don't know 🫠</strong>
+<br />I'm a software engineer with over five years of experience currently working at [Royal London Equity Release](https://equityrelease.royallondon.com/)</br>
+Besides programming, I have immense interests in [football](https://www.allanfernandes.dev/tekkers), psychological thrillers and an avid non-fiction reader.>
+
 - 👨‍💻 You can find out more about me and my projects on [https://allanfernandes.dev/](https://allanfernandes.dev/projects)<br />
 - 📫 How to reach me: fernzallan14@gmail.com
-- ⚡ Checkout my latest blog article [Build your resume in Markdown](https://www.allanfernandes.dev/blog/build-your-resume-using-markdown)
+- ⚡ Checkout my latest blog article [Code quality using Github Actions]([https://www.allanfernandes.dev/blog/build-your-resume-using-markdown](https://www.allanfernandes.dev/blog/enforcing-code-quality-using-github-actions))
 - 📝 [Resume](https://www.allanfernandes.dev/Resume_Allan_Fernandes_.pdf)
 
 **Languages and Tools:**<br />
